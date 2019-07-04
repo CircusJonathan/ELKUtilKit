@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
     s.name         = "ELKUtilKit"
 
-    s.version      = "1.0.6"
+    s.version      = "1.0.7"
 
     s.summary      = "Util"
 
@@ -26,10 +26,9 @@ Pod::Spec.new do |s|
 
 
     s.vendored_frameworks = 'ELKUtilKit/ELKUtilKit.framework'
-#s.resources = "Resources/*.png"
-    s.preserve_paths = "ELKUtilKit/ELKUtilResources.bundle"
+    s.resources           = "ELKUtilKit/ELKUtilResources.bundle"
 
-    s.ios.frameworks = 'Foundation', 'UIKit'
+    s.ios.frameworks      = 'Foundation', 'UIKit'
 
     s.dependency 'SDWebImage'
 
