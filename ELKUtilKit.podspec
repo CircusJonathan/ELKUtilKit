@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
     s.name         = "ELKUtilKit"
 
-    s.version      = "1.0.5"
+    s.version      = "1.0.6"
 
     s.summary      = "Util"
 
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
 
 
     s.vendored_frameworks = 'ELKUtilKit/ELKUtilKit.framework'
-    s.preserve_paths = "ELKUtilKit/ELKUtilResources"
+#s.resources = "Resources/*.png"
+    s.preserve_paths = "ELKUtilKit/ELKUtilResources.bundle"
 
     s.ios.frameworks = 'Foundation', 'UIKit'
 
