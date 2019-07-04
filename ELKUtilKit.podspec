@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
     s.name         = "ELKUtilKit"
 
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
 
     s.summary      = "Util"
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
     s.source       = { :git => "https://github.com/CircusJonathan/ELKUtilKit.git", :tag => "#{s.version}" }
 
-    s.source_files  = "ELKUtilKit", "ELKUtilKit/**/*.{h,m,framework,bundle}"
+    s.source_files  = "ELKUtilKit", "ELKUtilKit/**/*"
 
     s.requires_arc = true
 
