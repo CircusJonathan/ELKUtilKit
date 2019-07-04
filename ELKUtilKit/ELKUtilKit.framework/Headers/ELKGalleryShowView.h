@@ -15,39 +15,39 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- 朋友圈风格展示放大图片
+ Full screen preview picture
  
- @param imageUrl 图片URL
- @param imgName  占位图名字
- @param imgView  当前显示图片的视图
+ @param imageUrl Picture URL
+ @param imgName  Placeholder Image's name
+ @param imgView  The view that currently displays the image
  */
 + (void)showGallery:(nullable NSString *)imageUrl placeHolderName:(nullable NSString *)imgName imgView:(nonnull UIView *)imgView;
 
 
 /**
- 朋友圈风格展示放大图片
+ Full screen preview picture
 
- @param imageUrl   图片URL
- @param placeImage 占位图
- @param imgView    当前显示图片的视图
+ @param imageUrl   Picture URL
+ @param placeImage Placeholder Image
+ @param imgView    The view that currently displays the image
  */
 + (void)showGallery:(nullable NSString *)imageUrl placeHolder:(nullable UIImage *)placeImage imgView:(nonnull UIView *)imgView;
 
 
 /**
- 朋友圈风格展示放大图片
+ Full screen preview picture, use default placeholder image
 
- @param imgName 本地图片名字
- @param imgView 当前显示图片的视图
+ @param imgName Local Image's name
+ @param imgView The view that currently displays the image
  */
 + (void)showGallery:(nullable NSString *)imgName imgView:(nonnull UIView *)imgView;
 
 
 /**
- 朋友圈风格展示放大图片
+ Full screen preview picture, use default placeholder image
 
- @param image   图片UIImage
- @param imgView 当前显示图片的视图
+ @param image   UIImage object
+ @param imgView The view that currently displays the image
  */
 + (void)showGalleryImg:(nullable UIImage *)image imgView:(nonnull UIView *)imgView;
 

@@ -20,11 +20,13 @@ FOUNDATION_EXPORT const unsigned char ELKUtilKitVersionString[];
 
 #import "ELKGalleryShowView.h"
 #import "ELKStarView.h"
+#import "ELKPapawView.h"
+#import "ELKNoDataView.h"
 
 
 
 
-
+#import "UITextView+ELKPlaceHolder.h"
 
 
 
