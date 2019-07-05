@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^ELKTextViewDidChangeBlock)(NSString * _Nullable text);
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UITextView (ELKPlaceHolder)
@@ -21,6 +23,14 @@ NS_ASSUME_NONNULL_BEGIN
  The placeholder's Color
  */
 @property (nonatomic, strong) UIColor *placeHolderColor;
+/**
+ Maximum length of input
+ */
+@property (nonatomic, assign) NSInteger maxTextLength;
+/**
+ Notify when textview did changed
+ */
+@property (nonatomic, copy) ELKTextViewDidChangeBlock textViewDidChangeBlock;
 
 /**
  Set the font of the text, the placeholder's font size is same to text.
