@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
     s.name         = "ELKUtilKit"
 
-    s.version      = "1.1.2"
+    s.version      = "1.1.3"
 
     s.summary      = "Util"
 
@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
 
-    s.vendored_frameworks = "ELKKit/ELKUtilKit.framework"
-    s.resources           = "ELKKit/ELKUtilResources.bundle"
+    s.vendored_frameworks = "ELKUtilKit/ELKKit/ELKUtilKit.framework"
+    s.resources           = "ELKUtilKit/ELKKit/ELKUtilResources.bundle"
 
     s.ios.frameworks      = 'Foundation', 'UIKit'
 

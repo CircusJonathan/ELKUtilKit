@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
     s.name         = "ELKUtilKit-Chained"
 
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
 
     s.summary      = "Chained Util Kit"
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
 
-    s.vendored_frameworks = "ELKKit/ELKUtilKit-Chained.framework"
+    s.vendored_frameworks = "ELKUtilKit-Chained/ELKKit/ELKUtilKit-Chained.framework"
 
     s.ios.frameworks      = 'Foundation', 'UIKit'
 
