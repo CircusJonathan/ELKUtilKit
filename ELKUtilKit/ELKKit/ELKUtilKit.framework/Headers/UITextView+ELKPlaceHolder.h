@@ -30,14 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Notify when textview did changed
  */
-@property (nonatomic, copy) ELKTextViewDidChangeBlock textViewDidChangeBlock;
+@property (nonatomic, copy, readonly) ELKTextViewDidChangeBlock textViewDidChangeBlock;
 
-/**
- Set the font of the text, the placeholder's font size is same to text.
-
- @param font UIFont object
- */
-- (void)elk_setFont:(UIFont *)font;
 
 
 @end

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^ELKStarSetScoreCompletion)(BOOL finished);
 
 /**
  The degree of atomization of the number of stars, accuracy in representing the number of stars
@@ -132,7 +133,7 @@ typedef NS_OPTIONS(NSUInteger, ELKStarAtomicity) {
  @param animate    animate
  @param completion finished callback
  */
-- (void)setScore:(CGFloat)score withAnimation:(BOOL)animate completion:(void (^)(BOOL finished))completion;
+- (void)setScore:(CGFloat)score withAnimation:(BOOL)animate completion:(ELKStarSetScoreCompletion)completion;
 
 
 
