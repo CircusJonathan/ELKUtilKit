@@ -1,11 +1,11 @@
 
 Pod::Spec.new do |s|
 
-    s.name         = "ELKUtilKit"
+    s.name         = "ELKUtilKit-Chained"
 
-    s.version      = "1.1.1"
+    s.version      = "0.0.1"
 
-    s.summary      = "Util"
+    s.summary      = "Chained Util Kit"
 
     s.description  = <<-DESC
                         Some useful tools
@@ -23,12 +23,12 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
 
-    s.vendored_frameworks = "ELKUtilKit/ELKUtilKit.framework"
-    s.resources           = "ELKUtilKit/ELKUtilResources.bundle"
+    s.vendored_frameworks = "ELKKit/ELKUtilKit-Chained.framework"
 
     s.ios.frameworks      = 'Foundation', 'UIKit'
 
     s.dependency 'SDWebImage'
+    s.dependency 'ELKUtilKit'
 
 
 

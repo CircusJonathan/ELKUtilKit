@@ -1,0 +1,6 @@
+framework module ELKUtilKit_Chained {
+  umbrella header "ELKUtilKit_Chained.h"
+
+  export *
+  module * { export * }
+}
