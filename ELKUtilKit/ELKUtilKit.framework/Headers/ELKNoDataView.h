@@ -1,9 +1,9 @@
 //
 //  ELKNoDataView.h
-//  ScrapMaster
+//  ELKUtilKit
 //
-//  Created by BNT-FS01 on 2017/12/6.
-//  Copyright © 2017年 BNT-FS01. All rights reserved.
+//  Created by wing on 2017/12/6.
+//  Copyright © 2017年 wing. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

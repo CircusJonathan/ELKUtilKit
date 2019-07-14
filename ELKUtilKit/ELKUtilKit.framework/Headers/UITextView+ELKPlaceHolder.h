@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Notify when textview did changed
  */
-@property (nonatomic, copy, readonly) ELKTextViewDidChangeBlock textViewDidChangeBlock;
+@property (nonatomic, copy) ELKTextViewDidChangeBlock textViewDidChangeBlock;
 
 
 

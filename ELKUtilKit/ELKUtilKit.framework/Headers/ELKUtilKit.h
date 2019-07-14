@@ -18,6 +18,7 @@ FOUNDATION_EXPORT const unsigned char ELKUtilKitVersionString[];
 
 
 
+#import "ELKSegmentControl.h"
 #import "ELKGalleryShowView.h"
 #import "ELKStarView.h"
 #import "ELKPapawView.h"

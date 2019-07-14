@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 
 
+typedef void(^ELKPapawTapBlock)(void);
+
 @interface ELKPapawView : UIView
 
 
 + (void)showPapawView;
+
++ (void)refreshPapawViewWithNum:(NSInteger)number block:(ELKPapawTapBlock)block;
 
 + (void)dismissPapawView;
 
