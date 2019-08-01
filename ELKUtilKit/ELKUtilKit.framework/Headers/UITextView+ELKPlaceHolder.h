@@ -24,13 +24,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong) UIColor *placeHolderColor;
 /**
- Maximum length of input
- */
-@property (nonatomic, assign) NSInteger maxTextLength;
-/**
  Notify when textview did changed
  */
 @property (nonatomic, copy) ELKTextViewDidChangeBlock textViewDidChangeBlock;
+
+/**
+ Set maximum length of input
+ */
+- (void)setMaxTextLength:(NSInteger)maxLength;
 
 
 
