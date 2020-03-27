@@ -7,85 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD8D9CEC7000CEC42BA3206 /* libPods-ELKUtilDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB616448FFC32367C05A38F1 /* libPods-ELKUtilDemo.a */; };
-		AB29A20D22CDB0FC00DE6E12 /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB29A20C22CDB0FC00DE6E12 /* ELKUtilResources.bundle */; };
-		AB6C5EC522CEF6C8007020E7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6C5EC422CEF6C8007020E7 /* SecondViewController.m */; };
-		ABAF867A22F1703800E57BF1 /* ELKUtilKitChained.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF867922F1703800E57BF1 /* ELKUtilKitChained.framework */; };
-		ABF8686722CC7F0F007B6591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF8686622CC7F0F007B6591 /* AppDelegate.m */; };
-		ABF8686A22CC7F0F007B6591 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF8686922CC7F0F007B6591 /* ViewController.m */; };
-		ABF8686D22CC7F0F007B6591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF8686B22CC7F0F007B6591 /* Main.storyboard */; };
-		ABF8686F22CC7F10007B6591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF8686E22CC7F10007B6591 /* Assets.xcassets */; };
-		ABF8687222CC7F10007B6591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF8687022CC7F10007B6591 /* LaunchScreen.storyboard */; };
-		ABF8687522CC7F10007B6591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF8687422CC7F10007B6591 /* main.m */; };
-		ABF8687F22CC7F10007B6591 /* ELKUtilDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF8687E22CC7F10007B6591 /* ELKUtilDemoTests.m */; };
-		ABF8688A22CC7F10007B6591 /* ELKUtilDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF8688922CC7F10007B6591 /* ELKUtilDemoUITests.m */; };
-		ABF868E422CC8989007B6591 /* ELKUtilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF868E322CC8989007B6591 /* ELKUtilKit.framework */; };
+		120FDD628548374E8704D1B2 /* libPods-ELKUtilDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 602F7981EC87D3AF1859436A /* libPods-ELKUtilDemo.a */; };
+		AB716A72242E071900804253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A71242E071900804253 /* AppDelegate.m */; };
+		AB716A78242E071900804253 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A77242E071900804253 /* ViewController.m */; };
+		AB716A7B242E071900804253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB716A79242E071900804253 /* Main.storyboard */; };
+		AB716A7D242E071A00804253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB716A7C242E071A00804253 /* Assets.xcassets */; };
+		AB716A80242E071A00804253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB716A7E242E071A00804253 /* LaunchScreen.storyboard */; };
+		AB716A83242E071A00804253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A82242E071A00804253 /* main.m */; };
+		AB716A8D242E071A00804253 /* ELKUtilDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A8C242E071A00804253 /* ELKUtilDemoTests.m */; };
+		AB716A98242E071A00804253 /* ELKUtilDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A97242E071A00804253 /* ELKUtilDemoUITests.m */; };
+		AB716BEE242E116800804253 /* ELKUtilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB716BED242E116800804253 /* ELKUtilKit.framework */; };
+		AB716BF0242E116800804253 /* ELKUtilKitChained.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB716BEF242E116800804253 /* ELKUtilKitChained.framework */; };
+		AB716BF2242E118600804253 /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB716BF1242E118600804253 /* ELKUtilResources.bundle */; };
+		AB716BF5242E11A600804253 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716BF3242E11A500804253 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ABF8687B22CC7F10007B6591 /* PBXContainerItemProxy */ = {
+		AB716A89242E071A00804253 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ABF8685A22CC7F0F007B6591 /* Project object */;
+			containerPortal = AB716A65242E071900804253 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABF8686122CC7F0F007B6591;
+			remoteGlobalIDString = AB716A6C242E071900804253;
 			remoteInfo = ELKUtilDemo;
 		};
-		ABF8688622CC7F10007B6591 /* PBXContainerItemProxy */ = {
+		AB716A94242E071A00804253 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ABF8685A22CC7F0F007B6591 /* Project object */;
+			containerPortal = AB716A65242E071900804253 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABF8686122CC7F0F007B6591;
+			remoteGlobalIDString = AB716A6C242E071900804253;
 			remoteInfo = ELKUtilDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4300679F8D2F31C3B5B1114B /* Pods-ELKUtilDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilDemo.release.xcconfig"; path = "Target Support Files/Pods-ELKUtilDemo/Pods-ELKUtilDemo.release.xcconfig"; sourceTree = "<group>"; };
-		53F21CB618DB53B5E57F18D0 /* Pods-ELKUtilDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilDemo.debug.xcconfig"; path = "Target Support Files/Pods-ELKUtilDemo/Pods-ELKUtilDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		AB29A20C22CDB0FC00DE6E12 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ../../../../ELKProducts/Release/ELKUtilResources.bundle; sourceTree = "<group>"; };
-		AB6C5EC322CEF6C8007020E7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		AB6C5EC422CEF6C8007020E7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		ABAF867922F1703800E57BF1 /* ELKUtilKitChained.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ELKUtilKitChained.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF8686222CC7F0F007B6591 /* ELKUtilDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELKUtilDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF8686522CC7F0F007B6591 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ABF8686622CC7F0F007B6591 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABF8686822CC7F0F007B6591 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABF8686922CC7F0F007B6591 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ABF8686C22CC7F0F007B6591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABF8686E22CC7F10007B6591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABF8687122CC7F10007B6591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ABF8687322CC7F10007B6591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABF8687422CC7F10007B6591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABF8687A22CC7F10007B6591 /* ELKUtilDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELKUtilDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF8687E22CC7F10007B6591 /* ELKUtilDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKUtilDemoTests.m; sourceTree = "<group>"; };
-		ABF8688022CC7F10007B6591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABF8688522CC7F10007B6591 /* ELKUtilDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELKUtilDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF8688922CC7F10007B6591 /* ELKUtilDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKUtilDemoUITests.m; sourceTree = "<group>"; };
-		ABF8688B22CC7F10007B6591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABF868E322CC8989007B6591 /* ELKUtilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ELKUtilKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF868E522CC8E8C007B6591 /* ELKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKPrefixHeader.pch; sourceTree = "<group>"; };
-		EB616448FFC32367C05A38F1 /* libPods-ELKUtilDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELKUtilDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		014354006FA101173B34FB23 /* Pods-ELKUtilDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilDemo.debug.xcconfig"; path = "Target Support Files/Pods-ELKUtilDemo/Pods-ELKUtilDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		602F7981EC87D3AF1859436A /* libPods-ELKUtilDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELKUtilDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB716A6D242E071900804253 /* ELKUtilDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELKUtilDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB716A70242E071900804253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB716A71242E071900804253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB716A76242E071900804253 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB716A77242E071900804253 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB716A7A242E071900804253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB716A7C242E071A00804253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB716A7F242E071A00804253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB716A81242E071A00804253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB716A82242E071A00804253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB716A88242E071A00804253 /* ELKUtilDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELKUtilDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB716A8C242E071A00804253 /* ELKUtilDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKUtilDemoTests.m; sourceTree = "<group>"; };
+		AB716A8E242E071A00804253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB716A93242E071A00804253 /* ELKUtilDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELKUtilDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB716A97242E071A00804253 /* ELKUtilDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELKUtilDemoUITests.m; sourceTree = "<group>"; };
+		AB716A99242E071A00804253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB716BEC242E110C00804253 /* ELKUtilDemoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKUtilDemoPrefixHeader.pch; sourceTree = "<group>"; };
+		AB716BED242E116800804253 /* ELKUtilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ELKUtilKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB716BEF242E116800804253 /* ELKUtilKitChained.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ELKUtilKitChained.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB716BF1242E118600804253 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ../../../ELKProducts/Release/ELKUtilResources.bundle; sourceTree = "<group>"; };
+		AB716BF3242E11A500804253 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AB716BF4242E11A500804253 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DA58263FCEF00663828A6F3A /* Pods-ELKUtilDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilDemo.release.xcconfig"; path = "Target Support Files/Pods-ELKUtilDemo/Pods-ELKUtilDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ABF8685F22CC7F0F007B6591 /* Frameworks */ = {
+		AB716A6A242E071900804253 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABAF867A22F1703800E57BF1 /* ELKUtilKitChained.framework in Frameworks */,
-				ABF868E422CC8989007B6591 /* ELKUtilKit.framework in Frameworks */,
-				1BD8D9CEC7000CEC42BA3206 /* libPods-ELKUtilDemo.a in Frameworks */,
+				AB716BEE242E116800804253 /* ELKUtilKit.framework in Frameworks */,
+				AB716BF0242E116800804253 /* ELKUtilKitChained.framework in Frameworks */,
+				120FDD628548374E8704D1B2 /* libPods-ELKUtilDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF8687722CC7F10007B6591 /* Frameworks */ = {
+		AB716A85242E071A00804253 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF8688222CC7F10007B6591 /* Frameworks */ = {
+		AB716A90242E071A00804253 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,113 +95,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07B9606808F32DF5B2EA74F4 /* Frameworks */ = {
+		0E510E542AF69F84AB71672C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ABAF867922F1703800E57BF1 /* ELKUtilKitChained.framework */,
-				ABF868E322CC8989007B6591 /* ELKUtilKit.framework */,
-				EB616448FFC32367C05A38F1 /* libPods-ELKUtilDemo.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ABF8685922CC7F0F007B6591 = {
-			isa = PBXGroup;
-			children = (
-				ABF8686422CC7F0F007B6591 /* ELKUtilDemo */,
-				ABF8687D22CC7F10007B6591 /* ELKUtilDemoTests */,
-				ABF8688822CC7F10007B6591 /* ELKUtilDemoUITests */,
-				ABF8686322CC7F0F007B6591 /* Products */,
-				F27152E68628C24D891F3982 /* Pods */,
-				07B9606808F32DF5B2EA74F4 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		ABF8686322CC7F0F007B6591 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ABF8686222CC7F0F007B6591 /* ELKUtilDemo.app */,
-				ABF8687A22CC7F10007B6591 /* ELKUtilDemoTests.xctest */,
-				ABF8688522CC7F10007B6591 /* ELKUtilDemoUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		ABF8686422CC7F0F007B6591 /* ELKUtilDemo */ = {
-			isa = PBXGroup;
-			children = (
-				ABF8686522CC7F0F007B6591 /* AppDelegate.h */,
-				ABF8686622CC7F0F007B6591 /* AppDelegate.m */,
-				ABF8686822CC7F0F007B6591 /* ViewController.h */,
-				ABF8686922CC7F0F007B6591 /* ViewController.m */,
-				AB6C5EC322CEF6C8007020E7 /* SecondViewController.h */,
-				AB6C5EC422CEF6C8007020E7 /* SecondViewController.m */,
-				ABF868D022CC8319007B6591 /* Others */,
-			);
-			path = ELKUtilDemo;
-			sourceTree = "<group>";
-		};
-		ABF8687D22CC7F10007B6591 /* ELKUtilDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				ABF8687E22CC7F10007B6591 /* ELKUtilDemoTests.m */,
-				ABF8688022CC7F10007B6591 /* Info.plist */,
-			);
-			path = ELKUtilDemoTests;
-			sourceTree = "<group>";
-		};
-		ABF8688822CC7F10007B6591 /* ELKUtilDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ABF8688922CC7F10007B6591 /* ELKUtilDemoUITests.m */,
-				ABF8688B22CC7F10007B6591 /* Info.plist */,
-			);
-			path = ELKUtilDemoUITests;
-			sourceTree = "<group>";
-		};
-		ABF868D022CC8319007B6591 /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				ABF8686E22CC7F10007B6591 /* Assets.xcassets */,
-				ABF868E522CC8E8C007B6591 /* ELKPrefixHeader.pch */,
-				ABF8687322CC7F10007B6591 /* Info.plist */,
-				ABF8687422CC7F10007B6591 /* main.m */,
-				ABF868D222CC8331007B6591 /* Resources */,
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		ABF868D222CC8331007B6591 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AB29A20C22CDB0FC00DE6E12 /* ELKUtilResources.bundle */,
-				ABF8686B22CC7F0F007B6591 /* Main.storyboard */,
-				ABF8687022CC7F10007B6591 /* LaunchScreen.storyboard */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		F27152E68628C24D891F3982 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				53F21CB618DB53B5E57F18D0 /* Pods-ELKUtilDemo.debug.xcconfig */,
-				4300679F8D2F31C3B5B1114B /* Pods-ELKUtilDemo.release.xcconfig */,
+				014354006FA101173B34FB23 /* Pods-ELKUtilDemo.debug.xcconfig */,
+				DA58263FCEF00663828A6F3A /* Pods-ELKUtilDemo.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
+		3987EDA47C70617298CD87A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB716BED242E116800804253 /* ELKUtilKit.framework */,
+				AB716BEF242E116800804253 /* ELKUtilKitChained.framework */,
+				602F7981EC87D3AF1859436A /* libPods-ELKUtilDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB716A64242E071900804253 = {
+			isa = PBXGroup;
+			children = (
+				AB716A6F242E071900804253 /* ELKUtilDemo */,
+				AB716A8B242E071A00804253 /* ELKUtilDemoTests */,
+				AB716A96242E071A00804253 /* ELKUtilDemoUITests */,
+				AB716A6E242E071900804253 /* Products */,
+				0E510E542AF69F84AB71672C /* Pods */,
+				3987EDA47C70617298CD87A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB716A6E242E071900804253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB716A6D242E071900804253 /* ELKUtilDemo.app */,
+				AB716A88242E071A00804253 /* ELKUtilDemoTests.xctest */,
+				AB716A93242E071A00804253 /* ELKUtilDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB716A6F242E071900804253 /* ELKUtilDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB716A70242E071900804253 /* AppDelegate.h */,
+				AB716A71242E071900804253 /* AppDelegate.m */,
+				AB716BF4242E11A500804253 /* SecondViewController.h */,
+				AB716BF3242E11A500804253 /* SecondViewController.m */,
+				AB716A76242E071900804253 /* ViewController.h */,
+				AB716A77242E071900804253 /* ViewController.m */,
+				AB716BEB242E10F300804253 /* ZOthers */,
+			);
+			path = ELKUtilDemo;
+			sourceTree = "<group>";
+		};
+		AB716A8B242E071A00804253 /* ELKUtilDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB716A8C242E071A00804253 /* ELKUtilDemoTests.m */,
+				AB716A8E242E071A00804253 /* Info.plist */,
+			);
+			path = ELKUtilDemoTests;
+			sourceTree = "<group>";
+		};
+		AB716A96242E071A00804253 /* ELKUtilDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB716A97242E071A00804253 /* ELKUtilDemoUITests.m */,
+				AB716A99242E071A00804253 /* Info.plist */,
+			);
+			path = ELKUtilDemoUITests;
+			sourceTree = "<group>";
+		};
+		AB716BEB242E10F300804253 /* ZOthers */ = {
+			isa = PBXGroup;
+			children = (
+				AB716A7C242E071A00804253 /* Assets.xcassets */,
+				AB716BEC242E110C00804253 /* ELKUtilDemoPrefixHeader.pch */,
+				AB716BF1242E118600804253 /* ELKUtilResources.bundle */,
+				AB716A81242E071A00804253 /* Info.plist */,
+				AB716A7E242E071A00804253 /* LaunchScreen.storyboard */,
+				AB716A82242E071A00804253 /* main.m */,
+				AB716A79242E071900804253 /* Main.storyboard */,
+			);
+			path = ZOthers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABF8686122CC7F0F007B6591 /* ELKUtilDemo */ = {
+		AB716A6C242E071900804253 /* ELKUtilDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF8688E22CC7F10007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilDemo" */;
+			buildConfigurationList = AB716A9C242E071A00804253 /* Build configuration list for PBXNativeTarget "ELKUtilDemo" */;
 			buildPhases = (
-				9B1559FFBFE26EDBEE1DF48A /* [CP] Check Pods Manifest.lock */,
-				ABF8685E22CC7F0F007B6591 /* Sources */,
-				ABF8685F22CC7F0F007B6591 /* Frameworks */,
-				ABF8686022CC7F0F007B6591 /* Resources */,
+				49418CA11D56BB59A35CE8CA /* [CP] Check Pods Manifest.lock */,
+				AB716A69242E071900804253 /* Sources */,
+				AB716A6A242E071900804253 /* Frameworks */,
+				AB716A6B242E071900804253 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -209,68 +201,68 @@
 			);
 			name = ELKUtilDemo;
 			productName = ELKUtilDemo;
-			productReference = ABF8686222CC7F0F007B6591 /* ELKUtilDemo.app */;
+			productReference = AB716A6D242E071900804253 /* ELKUtilDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ABF8687922CC7F10007B6591 /* ELKUtilDemoTests */ = {
+		AB716A87242E071A00804253 /* ELKUtilDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF8689122CC7F10007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilDemoTests" */;
+			buildConfigurationList = AB716A9F242E071A00804253 /* Build configuration list for PBXNativeTarget "ELKUtilDemoTests" */;
 			buildPhases = (
-				ABF8687622CC7F10007B6591 /* Sources */,
-				ABF8687722CC7F10007B6591 /* Frameworks */,
-				ABF8687822CC7F10007B6591 /* Resources */,
+				AB716A84242E071A00804253 /* Sources */,
+				AB716A85242E071A00804253 /* Frameworks */,
+				AB716A86242E071A00804253 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ABF8687C22CC7F10007B6591 /* PBXTargetDependency */,
+				AB716A8A242E071A00804253 /* PBXTargetDependency */,
 			);
 			name = ELKUtilDemoTests;
 			productName = ELKUtilDemoTests;
-			productReference = ABF8687A22CC7F10007B6591 /* ELKUtilDemoTests.xctest */;
+			productReference = AB716A88242E071A00804253 /* ELKUtilDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ABF8688422CC7F10007B6591 /* ELKUtilDemoUITests */ = {
+		AB716A92242E071A00804253 /* ELKUtilDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF8689422CC7F10007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilDemoUITests" */;
+			buildConfigurationList = AB716AA2242E071A00804253 /* Build configuration list for PBXNativeTarget "ELKUtilDemoUITests" */;
 			buildPhases = (
-				ABF8688122CC7F10007B6591 /* Sources */,
-				ABF8688222CC7F10007B6591 /* Frameworks */,
-				ABF8688322CC7F10007B6591 /* Resources */,
+				AB716A8F242E071A00804253 /* Sources */,
+				AB716A90242E071A00804253 /* Frameworks */,
+				AB716A91242E071A00804253 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ABF8688722CC7F10007B6591 /* PBXTargetDependency */,
+				AB716A95242E071A00804253 /* PBXTargetDependency */,
 			);
 			name = ELKUtilDemoUITests;
 			productName = ELKUtilDemoUITests;
-			productReference = ABF8688522CC7F10007B6591 /* ELKUtilDemoUITests.xctest */;
+			productReference = AB716A93242E071A00804253 /* ELKUtilDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ABF8685A22CC7F0F007B6591 /* Project object */ = {
+		AB716A65242E071900804253 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = wing;
 				TargetAttributes = {
-					ABF8686122CC7F0F007B6591 = {
-						CreatedOnToolsVersion = 10.2.1;
+					AB716A6C242E071900804253 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
-					ABF8687922CC7F10007B6591 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = ABF8686122CC7F0F007B6591;
+					AB716A87242E071A00804253 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AB716A6C242E071900804253;
 					};
-					ABF8688422CC7F10007B6591 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = ABF8686122CC7F0F007B6591;
+					AB716A92242E071A00804253 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AB716A6C242E071900804253;
 					};
 				};
 			};
-			buildConfigurationList = ABF8685D22CC7F0F007B6591 /* Build configuration list for PBXProject "ELKUtilDemo" */;
+			buildConfigurationList = AB716A68242E071900804253 /* Build configuration list for PBXProject "ELKUtilDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -278,38 +270,38 @@
 				en,
 				Base,
 			);
-			mainGroup = ABF8685922CC7F0F007B6591;
-			productRefGroup = ABF8686322CC7F0F007B6591 /* Products */;
+			mainGroup = AB716A64242E071900804253;
+			productRefGroup = AB716A6E242E071900804253 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABF8686122CC7F0F007B6591 /* ELKUtilDemo */,
-				ABF8687922CC7F10007B6591 /* ELKUtilDemoTests */,
-				ABF8688422CC7F10007B6591 /* ELKUtilDemoUITests */,
+				AB716A6C242E071900804253 /* ELKUtilDemo */,
+				AB716A87242E071A00804253 /* ELKUtilDemoTests */,
+				AB716A92242E071A00804253 /* ELKUtilDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ABF8686022CC7F0F007B6591 /* Resources */ = {
+		AB716A6B242E071900804253 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB29A20D22CDB0FC00DE6E12 /* ELKUtilResources.bundle in Resources */,
-				ABF8687222CC7F10007B6591 /* LaunchScreen.storyboard in Resources */,
-				ABF8686F22CC7F10007B6591 /* Assets.xcassets in Resources */,
-				ABF8686D22CC7F0F007B6591 /* Main.storyboard in Resources */,
+				AB716BF2242E118600804253 /* ELKUtilResources.bundle in Resources */,
+				AB716A80242E071A00804253 /* LaunchScreen.storyboard in Resources */,
+				AB716A7D242E071A00804253 /* Assets.xcassets in Resources */,
+				AB716A7B242E071900804253 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF8687822CC7F10007B6591 /* Resources */ = {
+		AB716A86242E071A00804253 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF8688322CC7F10007B6591 /* Resources */ = {
+		AB716A91242E071A00804253 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,7 +311,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9B1559FFBFE26EDBEE1DF48A /* [CP] Check Pods Manifest.lock */ = {
+		49418CA11D56BB59A35CE8CA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,61 +336,61 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ABF8685E22CC7F0F007B6591 /* Sources */ = {
+		AB716A69242E071900804253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6C5EC522CEF6C8007020E7 /* SecondViewController.m in Sources */,
-				ABF8686A22CC7F0F007B6591 /* ViewController.m in Sources */,
-				ABF8687522CC7F10007B6591 /* main.m in Sources */,
-				ABF8686722CC7F0F007B6591 /* AppDelegate.m in Sources */,
+				AB716BF5242E11A600804253 /* SecondViewController.m in Sources */,
+				AB716A78242E071900804253 /* ViewController.m in Sources */,
+				AB716A72242E071900804253 /* AppDelegate.m in Sources */,
+				AB716A83242E071A00804253 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF8687622CC7F10007B6591 /* Sources */ = {
+		AB716A84242E071A00804253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF8687F22CC7F10007B6591 /* ELKUtilDemoTests.m in Sources */,
+				AB716A8D242E071A00804253 /* ELKUtilDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF8688122CC7F10007B6591 /* Sources */ = {
+		AB716A8F242E071A00804253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF8688A22CC7F10007B6591 /* ELKUtilDemoUITests.m in Sources */,
+				AB716A98242E071A00804253 /* ELKUtilDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ABF8687C22CC7F10007B6591 /* PBXTargetDependency */ = {
+		AB716A8A242E071A00804253 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABF8686122CC7F0F007B6591 /* ELKUtilDemo */;
-			targetProxy = ABF8687B22CC7F10007B6591 /* PBXContainerItemProxy */;
+			target = AB716A6C242E071900804253 /* ELKUtilDemo */;
+			targetProxy = AB716A89242E071A00804253 /* PBXContainerItemProxy */;
 		};
-		ABF8688722CC7F10007B6591 /* PBXTargetDependency */ = {
+		AB716A95242E071A00804253 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ABF8686122CC7F0F007B6591 /* ELKUtilDemo */;
-			targetProxy = ABF8688622CC7F10007B6591 /* PBXContainerItemProxy */;
+			target = AB716A6C242E071900804253 /* ELKUtilDemo */;
+			targetProxy = AB716A94242E071A00804253 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ABF8686B22CC7F0F007B6591 /* Main.storyboard */ = {
+		AB716A79242E071900804253 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ABF8686C22CC7F0F007B6591 /* Base */,
+				AB716A7A242E071900804253 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ABF8687022CC7F10007B6591 /* LaunchScreen.storyboard */ = {
+		AB716A7E242E071A00804253 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ABF8687122CC7F10007B6591 /* Base */,
+				AB716A7F242E071A00804253 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -406,7 +398,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ABF8688C22CC7F10007B6591 /* Debug */ = {
+		AB716A9A242E071A00804253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -438,7 +430,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -457,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -465,7 +456,7 @@
 			};
 			name = Debug;
 		};
-		ABF8688D22CC7F10007B6591 /* Release */ = {
+		AB716A9B242E071A00804253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -497,7 +488,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -510,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -518,55 +508,54 @@
 			};
 			name = Release;
 		};
-		ABF8688F22CC7F10007B6591 /* Debug */ = {
+		AB716A9D242E071A00804253 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53F21CB618DB53B5E57F18D0 /* Pods-ELKUtilDemo.debug.xcconfig */;
+			baseConfigurationReference = 014354006FA101173B34FB23 /* Pods-ELKUtilDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				DEVELOPMENT_TEAM = J8BTB638K2;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ELKUtilDemo/Others/ELKPrefixHeader.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/ELKUtilDemo/Others/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ELKUtilDemo/ZOthers/ELKUtilDemoPrefixHeader.pch";
+				INFOPLIST_FILE = ELKUtilDemo/ZOthers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.elk.ELKUtilKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elk.ELKUtilDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ABF8689022CC7F10007B6591 /* Release */ = {
+		AB716A9E242E071A00804253 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4300679F8D2F31C3B5B1114B /* Pods-ELKUtilDemo.release.xcconfig */;
+			baseConfigurationReference = DA58263FCEF00663828A6F3A /* Pods-ELKUtilDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				DEVELOPMENT_TEAM = J8BTB638K2;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ELKUtilDemo/Others/ELKPrefixHeader.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/ELKUtilDemo/Others/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ELKUtilDemo/ZOthers/ELKUtilDemoPrefixHeader.pch";
+				INFOPLIST_FILE = ELKUtilDemo/ZOthers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.elk.ELKUtilKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elk.ELKUtilDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		ABF8689222CC7F10007B6591 /* Debug */ = {
+		AB716AA0242E071A00804253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J8BTB638K2;
 				INFOPLIST_FILE = ELKUtilDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -579,13 +568,14 @@
 			};
 			name = Debug;
 		};
-		ABF8689322CC7F10007B6591 /* Release */ = {
+		AB716AA1242E071A00804253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J8BTB638K2;
 				INFOPLIST_FILE = ELKUtilDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,7 +588,7 @@
 			};
 			name = Release;
 		};
-		ABF8689522CC7F10007B6591 /* Debug */ = {
+		AB716AA3242E071A00804253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -616,7 +606,7 @@
 			};
 			name = Debug;
 		};
-		ABF8689622CC7F10007B6591 /* Release */ = {
+		AB716AA4242E071A00804253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -637,43 +627,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABF8685D22CC7F0F007B6591 /* Build configuration list for PBXProject "ELKUtilDemo" */ = {
+		AB716A68242E071900804253 /* Build configuration list for PBXProject "ELKUtilDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF8688C22CC7F10007B6591 /* Debug */,
-				ABF8688D22CC7F10007B6591 /* Release */,
+				AB716A9A242E071A00804253 /* Debug */,
+				AB716A9B242E071A00804253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF8688E22CC7F10007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilDemo" */ = {
+		AB716A9C242E071A00804253 /* Build configuration list for PBXNativeTarget "ELKUtilDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF8688F22CC7F10007B6591 /* Debug */,
-				ABF8689022CC7F10007B6591 /* Release */,
+				AB716A9D242E071A00804253 /* Debug */,
+				AB716A9E242E071A00804253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF8689122CC7F10007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilDemoTests" */ = {
+		AB716A9F242E071A00804253 /* Build configuration list for PBXNativeTarget "ELKUtilDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF8689222CC7F10007B6591 /* Debug */,
-				ABF8689322CC7F10007B6591 /* Release */,
+				AB716AA0242E071A00804253 /* Debug */,
+				AB716AA1242E071A00804253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF8689422CC7F10007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilDemoUITests" */ = {
+		AB716AA2242E071A00804253 /* Build configuration list for PBXNativeTarget "ELKUtilDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF8689522CC7F10007B6591 /* Debug */,
-				ABF8689622CC7F10007B6591 /* Release */,
+				AB716AA3242E071A00804253 /* Debug */,
+				AB716AA4242E071A00804253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ABF8685A22CC7F0F007B6591 /* Project object */;
+	rootObject = AB716A65242E071900804253 /* Project object */;
 }

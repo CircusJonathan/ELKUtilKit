@@ -2,17 +2,17 @@
 //  ViewController.m
 //  ELKUtilDemo
 //
-//  Created by wing on 2019/7/3.
-//  Copyright © 2019 wing. All rights reserved.
+//  Created by wing on 2020/3/27.
+//  Copyright © 2020 wing. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "SecondViewController.h"
 
-
 @interface ViewController ()<ELKStarRatingViewDelegate>
 
 @property (nonatomic, strong) UIImage *picImage;
+
 
 @end
 
@@ -20,7 +20,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.view.elk_setBackgroundColor(UIColor.darkGrayColor);
     
     UITapGestureRecognizer *tap1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGesture1:)];
@@ -114,7 +113,6 @@
     self.view.elk_addSubview(bbb);
     
 }
-
 - (void)starRatingView:(ELKStarView *)starView score:(CGFloat)score
 {
     NSLog(@"lllllllllll %.2f", score);

@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
     
     spec.public_header_files = 'ELKUtilKit/ELKUtilKit.h'
     spec.source_files        = 'ELKUtilKit/**/*.{h,m}'
-    spec.resources           = 'ELKUtilKit/Resources/ELKUtilResources.bundle'
+    spec.resources           = '../ELKProducts/Release/ELKUtilResources.bundle'
 
     spec.ios.frameworks      = 'Foundation', 'UIKit'
 

@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB23009422D9980F006305B8 /* ELKSegmentControl in Resources */ = {isa = PBXBuildFile; fileRef = AB23009322D9980F006305B8 /* ELKSegmentControl */; };
-		AB23009B22DA44B0006305B8 /* ELKPapawView in Resources */ = {isa = PBXBuildFile; fileRef = AB23009A22DA44B0006305B8 /* ELKPapawView */; };
-		AB24DB7022CE4F6A001905CA /* ELKNoDataView in Resources */ = {isa = PBXBuildFile; fileRef = AB24DB6F22CE4F6A001905CA /* ELKNoDataView */; };
-		ABF1163322CCFBF300EE8C3F /* ELKStarView in Resources */ = {isa = PBXBuildFile; fileRef = ABF1163122CCFBF300EE8C3F /* ELKStarView */; };
-		ABF1163422CCFBF300EE8C3F /* ELKGalleryView in Resources */ = {isa = PBXBuildFile; fileRef = ABF1163222CCFBF300EE8C3F /* ELKGalleryView */; };
+		AB716B45242E0A4600804253 /* ELKNoDataView in Resources */ = {isa = PBXBuildFile; fileRef = AB716B40242E0A4500804253 /* ELKNoDataView */; };
+		AB716B46242E0A4600804253 /* ELKGalleryView in Resources */ = {isa = PBXBuildFile; fileRef = AB716B41242E0A4600804253 /* ELKGalleryView */; };
+		AB716B47242E0A4600804253 /* ELKSegmentControl in Resources */ = {isa = PBXBuildFile; fileRef = AB716B42242E0A4600804253 /* ELKSegmentControl */; };
+		AB716B48242E0A4600804253 /* ELKPapawView in Resources */ = {isa = PBXBuildFile; fileRef = AB716B43242E0A4600804253 /* ELKPapawView */; };
+		AB716B49242E0A4600804253 /* ELKStarView in Resources */ = {isa = PBXBuildFile; fileRef = AB716B44242E0A4600804253 /* ELKStarView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB23009322D9980F006305B8 /* ELKSegmentControl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKSegmentControl; sourceTree = "<group>"; };
-		AB23009A22DA44B0006305B8 /* ELKPapawView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKPapawView; sourceTree = "<group>"; };
-		AB24DB6F22CE4F6A001905CA /* ELKNoDataView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKNoDataView; sourceTree = "<group>"; };
-		ABF1163122CCFBF300EE8C3F /* ELKStarView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKStarView; sourceTree = "<group>"; };
-		ABF1163222CCFBF300EE8C3F /* ELKGalleryView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKGalleryView; sourceTree = "<group>"; };
-		ABF868C422CC7F4F007B6591 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELKUtilResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB716B37242E097F00804253 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELKUtilResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB716B3A242E097F00804253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB716B40242E0A4500804253 /* ELKNoDataView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKNoDataView; sourceTree = "<group>"; };
+		AB716B41242E0A4600804253 /* ELKGalleryView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKGalleryView; sourceTree = "<group>"; };
+		AB716B42242E0A4600804253 /* ELKSegmentControl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKSegmentControl; sourceTree = "<group>"; };
+		AB716B43242E0A4600804253 /* ELKPapawView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKPapawView; sourceTree = "<group>"; };
+		AB716B44242E0A4600804253 /* ELKStarView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKStarView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ABF868C122CC7F4F007B6591 /* Frameworks */ = {
+		AB716B34242E097F00804253 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,30 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ABF868BB22CC7F4F007B6591 = {
+		AB716B2E242E097F00804253 = {
 			isa = PBXGroup;
 			children = (
-				ABF868C622CC7F4F007B6591 /* ELKUtilResources */,
-				ABF868C522CC7F4F007B6591 /* Products */,
+				AB716B39242E097F00804253 /* ELKUtilResources */,
+				AB716B38242E097F00804253 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ABF868C522CC7F4F007B6591 /* Products */ = {
+		AB716B38242E097F00804253 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABF868C422CC7F4F007B6591 /* ELKUtilResources.bundle */,
+				AB716B37242E097F00804253 /* ELKUtilResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABF868C622CC7F4F007B6591 /* ELKUtilResources */ = {
+		AB716B39242E097F00804253 /* ELKUtilResources */ = {
 			isa = PBXGroup;
 			children = (
-				AB23009A22DA44B0006305B8 /* ELKPapawView */,
-				AB23009322D9980F006305B8 /* ELKSegmentControl */,
-				AB24DB6F22CE4F6A001905CA /* ELKNoDataView */,
-				ABF1163222CCFBF300EE8C3F /* ELKGalleryView */,
-				ABF1163122CCFBF300EE8C3F /* ELKStarView */,
+				AB716B41242E0A4600804253 /* ELKGalleryView */,
+				AB716B40242E0A4500804253 /* ELKNoDataView */,
+				AB716B43242E0A4600804253 /* ELKPapawView */,
+				AB716B42242E0A4600804253 /* ELKSegmentControl */,
+				AB716B44242E0A4600804253 /* ELKStarView */,
+				AB716B3A242E097F00804253 /* Info.plist */,
 			);
 			path = ELKUtilResources;
 			sourceTree = "<group>";
@@ -65,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABF868C322CC7F4F007B6591 /* ELKUtilResources */ = {
+		AB716B36242E097F00804253 /* ELKUtilResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABF868CA22CC7F4F007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilResources" */;
+			buildConfigurationList = AB716B3D242E097F00804253 /* Build configuration list for PBXNativeTarget "ELKUtilResources" */;
 			buildPhases = (
-				ABF868C022CC7F4F007B6591 /* Sources */,
-				ABF868C122CC7F4F007B6591 /* Frameworks */,
-				ABF868C222CC7F4F007B6591 /* Resources */,
+				AB716B33242E097F00804253 /* Sources */,
+				AB716B34242E097F00804253 /* Frameworks */,
+				AB716B35242E097F00804253 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -79,57 +81,58 @@
 			);
 			name = ELKUtilResources;
 			productName = ELKUtilResources;
-			productReference = ABF868C422CC7F4F007B6591 /* ELKUtilResources.bundle */;
+			productReference = AB716B37242E097F00804253 /* ELKUtilResources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ABF868BC22CC7F4F007B6591 /* Project object */ = {
+		AB716B2F242E097F00804253 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = wing;
 				TargetAttributes = {
-					ABF868C322CC7F4F007B6591 = {
-						CreatedOnToolsVersion = 10.2.1;
+					AB716B36242E097F00804253 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = ABF868BF22CC7F4F007B6591 /* Build configuration list for PBXProject "ELKUtilResources" */;
+			buildConfigurationList = AB716B32242E097F00804253 /* Build configuration list for PBXProject "ELKUtilResources" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = ABF868BB22CC7F4F007B6591;
-			productRefGroup = ABF868C522CC7F4F007B6591 /* Products */;
+			mainGroup = AB716B2E242E097F00804253;
+			productRefGroup = AB716B38242E097F00804253 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABF868C322CC7F4F007B6591 /* ELKUtilResources */,
+				AB716B36242E097F00804253 /* ELKUtilResources */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ABF868C222CC7F4F007B6591 /* Resources */ = {
+		AB716B35242E097F00804253 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB24DB7022CE4F6A001905CA /* ELKNoDataView in Resources */,
-				AB23009422D9980F006305B8 /* ELKSegmentControl in Resources */,
-				AB23009B22DA44B0006305B8 /* ELKPapawView in Resources */,
-				ABF1163322CCFBF300EE8C3F /* ELKStarView in Resources */,
-				ABF1163422CCFBF300EE8C3F /* ELKGalleryView in Resources */,
+				AB716B49242E0A4600804253 /* ELKStarView in Resources */,
+				AB716B48242E0A4600804253 /* ELKPapawView in Resources */,
+				AB716B45242E0A4600804253 /* ELKNoDataView in Resources */,
+				AB716B47242E0A4600804253 /* ELKSegmentControl in Resources */,
+				AB716B46242E0A4600804253 /* ELKGalleryView in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ABF868C022CC7F4F007B6591 /* Sources */ = {
+		AB716B33242E097F00804253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,7 +142,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ABF868C822CC7F4F007B6591 /* Debug */ = {
+		AB716B3B242E097F00804253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -171,7 +174,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -190,8 +192,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -199,7 +201,7 @@
 			};
 			name = Debug;
 		};
-		ABF868C922CC7F4F007B6591 /* Release */ = {
+		AB716B3C242E097F00804253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +233,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -244,15 +245,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		ABF868CB22CC7F4F007B6591 /* Debug */ = {
+		AB716B3E242E097F00804253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,7 +262,6 @@
 				DEVELOPMENT_TEAM = J8BTB638K2;
 				INFOPLIST_FILE = ELKUtilResources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.elk.ELKUtilResources;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -270,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		ABF868CC22CC7F4F007B6591 /* Release */ = {
+		AB716B3F242E097F00804253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -279,7 +279,6 @@
 				DEVELOPMENT_TEAM = J8BTB638K2;
 				INFOPLIST_FILE = ELKUtilResources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.elk.ELKUtilResources;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -291,25 +290,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABF868BF22CC7F4F007B6591 /* Build configuration list for PBXProject "ELKUtilResources" */ = {
+		AB716B32242E097F00804253 /* Build configuration list for PBXProject "ELKUtilResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF868C822CC7F4F007B6591 /* Debug */,
-				ABF868C922CC7F4F007B6591 /* Release */,
+				AB716B3B242E097F00804253 /* Debug */,
+				AB716B3C242E097F00804253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABF868CA22CC7F4F007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilResources" */ = {
+		AB716B3D242E097F00804253 /* Build configuration list for PBXNativeTarget "ELKUtilResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABF868CB22CC7F4F007B6591 /* Debug */,
-				ABF868CC22CC7F4F007B6591 /* Release */,
+				AB716B3E242E097F00804253 /* Debug */,
+				AB716B3F242E097F00804253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ABF868BC22CC7F4F007B6591 /* Project object */;
+	rootObject = AB716B2F242E097F00804253 /* Project object */;
 }

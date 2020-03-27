@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^ELKTableViewMakeBlock)(UITableView * _Nonnull make);
+
 @interface UITableView (ELKChainedAlloy)
 
 
@@ -46,9 +48,22 @@ NS_ASSUME_NONNULL_BEGIN
 + (UITableView * _Nonnull)elk_makeStyle:(UITableViewStyle)style block:(void (^ _Nullable)(UITableView * _Nonnull make))block;
 
 
+/**
+ Make A UITableView, return a new object
 
+ @param style UITableViewStyle
+ @return Object Of UITableView
+ */
+UITableView * _Nonnull ELK_makeTableView(UITableViewStyle style);
 
+/**
+ Make A UITableView, return a new object
 
+ @param style UITableViewStyle
+ @param block block
+ @return Object Of UITableView
+ */
+UITableView * _Nonnull ELK_makeTableViewBlock(UITableViewStyle style, ELKTableViewMakeBlock _Nullable block);
 
 
 /**
@@ -89,22 +104,22 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  set estimated row height
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setEstimatedRowHeight)(CGFloat estRowHeight);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setEstimatedRowHeight)(CGFloat estRowHeight) NS_AVAILABLE_IOS(7_0);
 
 /**
  set section index color
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setSectionIndexColor)(UIColor * _Nullable color);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setSectionIndexColor)(UIColor * _Nullable color) NS_AVAILABLE_IOS(6_0);
 
 /**
  set section index backgroud color
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setSectionIndexBgColor)(UIColor * _Nullable color);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setSectionIndexBgColor)(UIColor * _Nullable color) NS_AVAILABLE_IOS(7_0);
 
 /**
  set section index tracking background color
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setSectionIndexTrackBgColor)(UIColor * _Nullable color);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setSectionIndexTrackBgColor)(UIColor * _Nullable color) NS_AVAILABLE_IOS(6_0);
 
 /**
  set separator style
@@ -119,27 +134,42 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  set separator inset
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setSeparatInset)(UIEdgeInsets inset);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setSeparatInset)(UIEdgeInsets inset) NS_AVAILABLE_IOS(7_0);
 
 /**
  register class for cell reuse identifier
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_registerClassForCell)(Class cellClass, NSString * _Nonnull identify);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_registerClassForCell)(Class cellClass, NSString * _Nonnull identifier) NS_AVAILABLE_IOS(6_0);
 
 /**
  register nib for cell reuse identifier
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_registerNibForCell)(UINib * _Nonnull nib, NSString * _Nonnull identify);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_registerNibForCell)(UINib * _Nonnull nib, NSString * _Nonnull identifier) NS_AVAILABLE_IOS(5_0);
+
+/**
+ dequeue Reusable Cell With Identifier
+ */
+@property (nonatomic, copy, readonly) __kindof UITableViewCell * _Nonnull (^elk_dequeueReusableCell)(NSString * _Nonnull identifier);
+
+/**
+ dequeue Reusable Cell With Identifier For IndexPath
+ */
+@property (nonatomic, copy, readonly) __kindof UITableViewCell * _Nonnull (^elk_dequeueReusableCellForIndexPath)(NSString * _Nonnull identifier, NSIndexPath *_Nonnull indexPath) NS_AVAILABLE_IOS(6_0);
 
 /**
  register nib for header footer view reuse identifier
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_registerNibForHeadFootView)(UINib * _Nonnull nib, NSString * _Nonnull identify);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_registerNibForHeadFootView)(UINib * _Nonnull nib, NSString * _Nonnull identifier) NS_AVAILABLE_IOS(6_0);
 
 /**
  register class for header footer view reuse identifier
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_registerClassForHeadFootView)(Class hfClass, NSString * _Nonnull identify);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_registerClassForHeadFootView)(Class hfClass, NSString * _Nonnull identifier) NS_AVAILABLE_IOS(6_0);
+
+/**
+ like dequeueReusableCellWithIdentifier:, but for headers/footers
+ */
+@property (nonatomic, copy, readonly) __kindof UITableViewHeaderFooterView * _Nonnull (^elk_dequeueReusableHeaderFooterView)(NSString *identifier) NS_AVAILABLE_IOS(6_0);
 
 /**
  set background view
@@ -164,7 +194,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  set allows multiple selection
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setAllowsMultSelect)(BOOL AllowMult);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setAllowsMultSelect)(BOOL AllowMult) NS_AVAILABLE_IOS(5_0);
 
 /**
  set allows selection during editing
@@ -174,7 +204,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  set allows multiple selection during editing
  */
-@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setAllowsMultSelectDuringEdit)(BOOL allowMult);
+@property (nonatomic, strong, readonly) UITableView * _Nonnull (^elk_setAllowsMultSelectDuringEdit)(BOOL allowMult) NS_AVAILABLE_IOS(5_0);
 
 
 

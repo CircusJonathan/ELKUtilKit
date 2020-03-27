@@ -9,11 +9,9 @@
 #ifndef ELKUtilDefinesHeader_h
 #define ELKUtilDefinesHeader_h
 
-#import <SDWebImage/SDWebImage.h>
 
 #import "NSBundle+ELKUtilResources.h"
 #import "UIImage+ELKUtilResources.h"
-
 
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1130"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABF868A022CC7F36007B6591"
+               BlueprintIdentifier = "AB716AEF242E092500804253"
                BuildableName = "ELKUtilKit.framework"
                BlueprintName = "ELKUtilKit"
                ReferencedContainer = "container:ELKUtilKit.xcodeproj">
@@ -27,21 +27,12 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABF868A022CC7F36007B6591"
-            BuildableName = "ELKUtilKit.framework"
-            BlueprintName = "ELKUtilKit"
-            ReferencedContainer = "container:ELKUtilKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABF868A922CC7F36007B6591"
+               BlueprintIdentifier = "AB716AF8242E092500804253"
                BuildableName = "ELKUtilKitTests.xctest"
                BlueprintName = "ELKUtilKitTests"
                ReferencedContainer = "container:ELKUtilKit.xcodeproj">
@@ -59,15 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABF868A022CC7F36007B6591"
-            BuildableName = "ELKUtilKit.framework"
-            BlueprintName = "ELKUtilKit"
-            ReferencedContainer = "container:ELKUtilKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -78,7 +60,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABF868A022CC7F36007B6591"
+            BlueprintIdentifier = "AB716AEF242E092500804253"
             BuildableName = "ELKUtilKit.framework"
             BlueprintName = "ELKUtilKit"
             ReferencedContainer = "container:ELKUtilKit.xcodeproj">

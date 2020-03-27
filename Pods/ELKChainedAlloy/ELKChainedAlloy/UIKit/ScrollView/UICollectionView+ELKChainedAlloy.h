@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 typedef void(^ELKCollCompletionBlock)(BOOL finished);
-typedef void (^ELKBatchUpdatesBlock)(void);
+typedef void(^ELKBatchUpdatesBlock)(void);
+typedef void(^ELKCollectionViewMakeBlock)(UICollectionView * _Nonnull make) NS_AVAILABLE_IOS(6_0);
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -48,6 +49,23 @@ NS_ASSUME_NONNULL_BEGIN
  @return return a new UICollectionView
  */
 + (UICollectionView * _Nonnull)elk_makeViewLayout:(UICollectionViewLayout * _Nonnull)layout block:(void (^ _Nullable)(UICollectionView * _Nonnull make))block;
+
+/**
+ Make A UICollectionView, return a new object
+
+ @param layout UICollectionViewLayout
+ @return Object Of UICollectionView
+ */
+UICollectionView * _Nonnull ELK_makeCollectionView(UICollectionViewLayout *_Nonnull layout) NS_AVAILABLE_IOS(6_0);
+
+/**
+ Make A UICollectionView, return a new object
+
+ @param layout UICollectionViewLayout
+ @param block  block
+ @return Object Of UICollectionView
+ */
+UICollectionView * _Nonnull ELK_makeCollectionViewBlock(UICollectionViewLayout *_Nonnull layout, ELKCollectionViewMakeBlock _Nullable block) NS_AVAILABLE_IOS(6_0);
 
 
 
@@ -123,10 +141,10 @@ NS_ASSUME_NONNULL_BEGIN
  transition from one layout to another
  */
 @property (nonatomic, copy, readonly) UICollectionView * _Nonnull (^elk_setCollectionViewLayout)(UICollectionViewLayout *layout, BOOL animated);
-@property (nonatomic, copy, readonly) UICollectionView * _Nonnull (^elk_setCollectionViewLayoutCompletion)(UICollectionViewLayout *layout, BOOL animated, ELKCollCompletionBlock _Nullable completion);
+@property (nonatomic, copy, readonly) UICollectionView * _Nonnull (^elk_setCollectionViewLayoutCompletion)(UICollectionViewLayout *layout, BOOL animated, ELKCollCompletionBlock _Nullable completion) NS_AVAILABLE_IOS(7_0);
 
 
-@property (nonatomic, copy, readonly) UICollectionViewTransitionLayout * _Nonnull (^elk_startInteractiveTransitionToCollectionViewLayout)(UICollectionViewLayout *layout, UICollectionViewLayoutInteractiveTransitionCompletion _Nullable completion);
+@property (nonatomic, copy, readonly) UICollectionViewTransitionLayout * _Nonnull (^elk_startInteractiveTransitionToCollectionViewLayout)(UICollectionViewLayout *layout, UICollectionViewLayoutInteractiveTransitionCompletion _Nullable completion) NS_AVAILABLE_IOS(7_0);
 
 @property (nonatomic, copy, readonly) UICollectionView * _Nonnull (^elk_finishInteractiveTransition)(void) NS_AVAILABLE_IOS(7_0);
 @property (nonatomic, copy, readonly) UICollectionView * _Nonnull (^elk_cancelInteractiveTransition)(void) NS_AVAILABLE_IOS(7_0);
