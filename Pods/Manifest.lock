@@ -7,33 +7,20 @@ PODS:
   - SDWebImage (5.6.1):
     - SDWebImage/Core (= 5.6.1)
   - SDWebImage/Core (5.6.1)
-  - UMCAnalytics (6.0.5):
-    - UMCCommon
-  - UMCCommon (2.1.1)
-  - UMCSecurityPlugins (1.0.6)
 
 DEPENDENCIES:
   - ELKChainedAlloy
   - SDWebImage
-  - UMCAnalytics
-  - UMCCommon
-  - UMCSecurityPlugins
 
 SPEC REPOS:
   trunk:
     - ELKChainedAlloy
     - SDWebImage
-    - UMCAnalytics
-    - UMCCommon
-    - UMCSecurityPlugins
 
 SPEC CHECKSUMS:
   ELKChainedAlloy: f4524fc982d7f95d3646a6f2ac5d9e6e476a413d
   SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
-  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
-  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
-  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
 
-PODFILE CHECKSUM: f80de55998f213325d355d35fcf7f9134aee284a
+PODFILE CHECKSUM: ec8f2fc291e8c9c96ced16afc3fa60a2d3c40018
 
 COCOAPODS: 1.9.0.beta.2

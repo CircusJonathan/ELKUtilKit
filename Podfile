@@ -1,47 +1,12 @@
-workspace 'ELKUtilKit.xcworkspace'
-project 'ELKUtilDemo/ELKUtilDemo.xcodeproj'
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
 
-target 'ELKUtilDemo' do
-
-  platform :ios , '9.0'
-  project 'ELKUtilDemo/ELKUtilDemo.xcodeproj'
-
-
+target 'ELKUtilKit' do
+  
   pod 'SDWebImage'
-  pod 'UMCCommon'
-  pod 'UMCAnalytics'
-  pod 'UMCSecurityPlugins'
-
   pod 'ELKChainedAlloy'
-  
-  
+
+
+
 
 end
-
-
-
-#target 'ELKUtilKit' do
-#
-#  platform :ios , '9.0'
-#  project 'ELKUtilKit/ELKUtilKit.xcodeproj'
-#
-#
-#  pod 'SDWebImage'
-#
-#
-#
-#end
-
-
-#target 'ELKUtilKitChained' do
-#
-#  platform :ios , '9.0'
-#  project 'ELKUtilKitChained/ELKUtilKitChained.xcodeproj'
-#
-#
-#  pod 'SDWebImage'
-#
-#
-#
-#end
-
