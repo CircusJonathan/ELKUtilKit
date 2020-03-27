@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
                         Some useful tools
                     DESC
 
-    s.homepage     = "https://gitee.com/elkshrek/ELKUtilKit"
+    s.homepage     = "https://github.com/elkshrek/ELKUtilKit"
 
     s.license      = "MIT"
     s.author             = { "Jonathan" => "Jonathan_dk@163.com" }
 
     s.platform     = :ios
 
-    s.source       = { :git => "https://gitee.com/elkshrek/ELKUtilKit.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/elkshrek/ELKUtilKit.git", :tag => "#{s.version}" }
     
     s.requires_arc = true
     
