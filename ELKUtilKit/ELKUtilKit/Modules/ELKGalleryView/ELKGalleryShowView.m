@@ -8,6 +8,7 @@
 
 #import "ELKGalleryShowView.h"
 #import "ELKUtilDefinesHeader.h"
+#import <SDWebImage/SDWebImage.h>
 
 
 #define ELK_GalleryPlaceImage @"ELKGalleryView/elk_gallery_place_image"
