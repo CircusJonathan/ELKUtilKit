@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		120FDD628548374E8704D1B2 /* libPods-ELKUtilDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 602F7981EC87D3AF1859436A /* libPods-ELKUtilDemo.a */; };
+		AB70FAD4242E4AB8006F991B /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB70FAD3242E4AB8006F991B /* ELKUtilResources.bundle */; };
 		AB716A72242E071900804253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A71242E071900804253 /* AppDelegate.m */; };
 		AB716A78242E071900804253 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A77242E071900804253 /* ViewController.m */; };
 		AB716A7B242E071900804253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB716A79242E071900804253 /* Main.storyboard */; };
@@ -32,7 +33,6 @@
 		AB716CC0242E254300804253 /* ELKStarView+ELKUtilChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CB9242E254300804253 /* ELKStarView+ELKUtilChained.m */; };
 		AB716CC1242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CBB242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.m */; };
 		AB716CC2242E254300804253 /* ELKSegmentControl+ELKUtilChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CBF242E254300804253 /* ELKSegmentControl+ELKUtilChained.m */; };
-		AB716CC4242E288800804253 /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB716CC3242E288800804253 /* ELKUtilResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 /* Begin PBXFileReference section */
 		014354006FA101173B34FB23 /* Pods-ELKUtilDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilDemo.debug.xcconfig"; path = "Target Support Files/Pods-ELKUtilDemo/Pods-ELKUtilDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		602F7981EC87D3AF1859436A /* libPods-ELKUtilDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELKUtilDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB70FAD3242E4AB8006F991B /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ELKUtilDemo/ELKUtilKit/ELKProducts/Release/ELKUtilResources.bundle; sourceTree = SOURCE_ROOT; };
 		AB716A6D242E071900804253 /* ELKUtilDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELKUtilDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB716A70242E071900804253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB716A71242E071900804253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,7 +110,6 @@
 		AB716CBC242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ELKUtilPlaceHolderChained.h"; sourceTree = "<group>"; };
 		AB716CBE242E254300804253 /* ELKSegmentControl+ELKUtilChained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELKSegmentControl+ELKUtilChained.h"; sourceTree = "<group>"; };
 		AB716CBF242E254300804253 /* ELKSegmentControl+ELKUtilChained.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELKSegmentControl+ELKUtilChained.m"; sourceTree = "<group>"; };
-		AB716CC3242E288800804253 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ELKUtilDemo/ELKProducts/Release/ELKUtilResources.bundle; sourceTree = SOURCE_ROOT; };
 		DA58263FCEF00663828A6F3A /* Pods-ELKUtilDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilDemo.release.xcconfig"; path = "Target Support Files/Pods-ELKUtilDemo/Pods-ELKUtilDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -220,7 +220,7 @@
 			children = (
 				AB716A7C242E071A00804253 /* Assets.xcassets */,
 				AB716BEC242E110C00804253 /* ELKUtilDemoPrefixHeader.pch */,
-				AB716CC3242E288800804253 /* ELKUtilResources.bundle */,
+				AB70FAD3242E4AB8006F991B /* ELKUtilResources.bundle */,
 				AB716A81242E071A00804253 /* Info.plist */,
 				AB716A7E242E071A00804253 /* LaunchScreen.storyboard */,
 				AB716A82242E071A00804253 /* main.m */,
@@ -518,7 +518,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB716CC4242E288800804253 /* ELKUtilResources.bundle in Resources */,
+				AB70FAD4242E4AB8006F991B /* ELKUtilResources.bundle in Resources */,
 				AB716A80242E071A00804253 /* LaunchScreen.storyboard in Resources */,
 				AB716A7D242E071A00804253 /* Assets.xcassets in Resources */,
 				AB716A7B242E071900804253 /* Main.storyboard in Resources */,
