@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB23009422D9980F006305B8 /* ELKSegmentControl in Resources */ = {isa = PBXBuildFile; fileRef = AB23009322D9980F006305B8 /* ELKSegmentControl */; };
+		AB23009B22DA44B0006305B8 /* ELKPapawView in Resources */ = {isa = PBXBuildFile; fileRef = AB23009A22DA44B0006305B8 /* ELKPapawView */; };
+		AB24DB7022CE4F6A001905CA /* ELKNoDataView in Resources */ = {isa = PBXBuildFile; fileRef = AB24DB6F22CE4F6A001905CA /* ELKNoDataView */; };
+		ABF1163322CCFBF300EE8C3F /* ELKStarView in Resources */ = {isa = PBXBuildFile; fileRef = ABF1163122CCFBF300EE8C3F /* ELKStarView */; };
+		ABF1163422CCFBF300EE8C3F /* ELKGalleryView in Resources */ = {isa = PBXBuildFile; fileRef = ABF1163222CCFBF300EE8C3F /* ELKGalleryView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB23009322D9980F006305B8 /* ELKSegmentControl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKSegmentControl; sourceTree = "<group>"; };
+		AB23009A22DA44B0006305B8 /* ELKPapawView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKPapawView; sourceTree = "<group>"; };
+		AB24DB6F22CE4F6A001905CA /* ELKNoDataView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKNoDataView; sourceTree = "<group>"; };
+		ABF1163122CCFBF300EE8C3F /* ELKStarView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKStarView; sourceTree = "<group>"; };
+		ABF1163222CCFBF300EE8C3F /* ELKGalleryView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ELKGalleryView; sourceTree = "<group>"; };
+		ABF868C422CC7F4F007B6591 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELKUtilResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF868C122CC7F4F007B6591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF868BB22CC7F4F007B6591 = {
+			isa = PBXGroup;
+			children = (
+				ABF868C622CC7F4F007B6591 /* ELKUtilResources */,
+				ABF868C522CC7F4F007B6591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF868C522CC7F4F007B6591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF868C422CC7F4F007B6591 /* ELKUtilResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF868C622CC7F4F007B6591 /* ELKUtilResources */ = {
+			isa = PBXGroup;
+			children = (
+				AB23009A22DA44B0006305B8 /* ELKPapawView */,
+				AB23009322D9980F006305B8 /* ELKSegmentControl */,
+				AB24DB6F22CE4F6A001905CA /* ELKNoDataView */,
+				ABF1163222CCFBF300EE8C3F /* ELKGalleryView */,
+				ABF1163122CCFBF300EE8C3F /* ELKStarView */,
+			);
+			path = ELKUtilResources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF868C322CC7F4F007B6591 /* ELKUtilResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF868CA22CC7F4F007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilResources" */;
+			buildPhases = (
+				ABF868C022CC7F4F007B6591 /* Sources */,
+				ABF868C122CC7F4F007B6591 /* Frameworks */,
+				ABF868C222CC7F4F007B6591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELKUtilResources;
+			productName = ELKUtilResources;
+			productReference = ABF868C422CC7F4F007B6591 /* ELKUtilResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF868BC22CC7F4F007B6591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wing;
+				TargetAttributes = {
+					ABF868C322CC7F4F007B6591 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ABF868BF22CC7F4F007B6591 /* Build configuration list for PBXProject "ELKUtilResources" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABF868BB22CC7F4F007B6591;
+			productRefGroup = ABF868C522CC7F4F007B6591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF868C322CC7F4F007B6591 /* ELKUtilResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF868C222CC7F4F007B6591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB24DB7022CE4F6A001905CA /* ELKNoDataView in Resources */,
+				AB23009422D9980F006305B8 /* ELKSegmentControl in Resources */,
+				AB23009B22DA44B0006305B8 /* ELKPapawView in Resources */,
+				ABF1163322CCFBF300EE8C3F /* ELKStarView in Resources */,
+				ABF1163422CCFBF300EE8C3F /* ELKGalleryView in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF868C022CC7F4F007B6591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABF868C822CC7F4F007B6591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABF868C922CC7F4F007B6591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABF868CB22CC7F4F007B6591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../ELKProducts/Debug";
+				DEVELOPMENT_TEAM = J8BTB638K2;
+				INFOPLIST_FILE = ELKUtilResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elk.ELKUtilResources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ABF868CC22CC7F4F007B6591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../ELKProducts/Release";
+				DEVELOPMENT_TEAM = J8BTB638K2;
+				INFOPLIST_FILE = ELKUtilResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elk.ELKUtilResources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF868BF22CC7F4F007B6591 /* Build configuration list for PBXProject "ELKUtilResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF868C822CC7F4F007B6591 /* Debug */,
+				ABF868C922CC7F4F007B6591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF868CA22CC7F4F007B6591 /* Build configuration list for PBXNativeTarget "ELKUtilResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF868CB22CC7F4F007B6591 /* Debug */,
+				ABF868CC22CC7F4F007B6591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF868BC22CC7F4F007B6591 /* Project object */;
+}

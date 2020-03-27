@@ -1,0 +1,6 @@
+framework module ELKUtilKit {
+  umbrella header "ELKUtilKit.h"
+
+  export *
+  module * { export * }
+}

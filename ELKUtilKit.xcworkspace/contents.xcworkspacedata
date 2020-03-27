@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ELKUtilDemo/ELKUtilDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ELKUtilKit/ELKUtilKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ELKUtilKitChained/ELKUtilKitChained.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ELKUtilResources/ELKUtilResources.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
