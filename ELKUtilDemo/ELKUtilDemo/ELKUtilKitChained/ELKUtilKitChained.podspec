@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     
     
-    s.public_header_files = 'ELKUtilKitChained/ELKUtilKitChained.h'
+   # s.public_header_files = 'ELKUtilKitChained/ELKUtilKitChained.h'
     s.source_files        = 'ELKUtilKitChained/**/*.{h,m}'
     
     s.ios.frameworks      = 'Foundation', 'UIKit'

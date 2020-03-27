@@ -258,7 +258,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = NO;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../ELKProducts/Debug";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../ELKUtilDemo/ELKUtilDemo/ELKProducts/Debug";
 				DEVELOPMENT_TEAM = J8BTB638K2;
 				INFOPLIST_FILE = ELKUtilResources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
@@ -275,7 +275,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = NO;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../ELKProducts/Release";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../ELKUtilDemo/ELKUtilDemo/ELKProducts/Release";
 				DEVELOPMENT_TEAM = J8BTB638K2;
 				INFOPLIST_FILE = ELKUtilResources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";

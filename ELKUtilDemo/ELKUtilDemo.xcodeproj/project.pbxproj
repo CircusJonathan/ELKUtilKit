@@ -16,10 +16,23 @@
 		AB716A83242E071A00804253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A82242E071A00804253 /* main.m */; };
 		AB716A8D242E071A00804253 /* ELKUtilDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A8C242E071A00804253 /* ELKUtilDemoTests.m */; };
 		AB716A98242E071A00804253 /* ELKUtilDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716A97242E071A00804253 /* ELKUtilDemoUITests.m */; };
-		AB716BEE242E116800804253 /* ELKUtilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB716BED242E116800804253 /* ELKUtilKit.framework */; };
-		AB716BF0242E116800804253 /* ELKUtilKitChained.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB716BEF242E116800804253 /* ELKUtilKitChained.framework */; };
-		AB716BF2242E118600804253 /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB716BF1242E118600804253 /* ELKUtilResources.bundle */; };
 		AB716BF5242E11A600804253 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716BF3242E11A500804253 /* SecondViewController.m */; };
+		AB716CA8242E253800804253 /* NSBundle+ELKUtilResources.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C83242E253800804253 /* NSBundle+ELKUtilResources.m */; };
+		AB716CA9242E253800804253 /* UIImage+ELKUtilResources.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C86242E253800804253 /* UIImage+ELKUtilResources.m */; };
+		AB716CAA242E253800804253 /* ELKUtilQuant.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C8A242E253800804253 /* ELKUtilQuant.m */; };
+		AB716CAB242E253800804253 /* ELKUtilSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C8D242E253800804253 /* ELKUtilSwizzling.m */; };
+		AB716CAC242E253800804253 /* ELKGalleryShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C92242E253800804253 /* ELKGalleryShowView.m */; };
+		AB716CAD242E253800804253 /* ELKDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C96242E253800804253 /* ELKDatePickerView.m */; };
+		AB716CAE242E253800804253 /* ELKStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C98242E253800804253 /* ELKStarView.m */; };
+		AB716CAF242E253800804253 /* ELKFiveStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C99242E253800804253 /* ELKFiveStarView.m */; };
+		AB716CB0242E253800804253 /* UITextView+ELKPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716C9E242E253800804253 /* UITextView+ELKPlaceHolder.m */; };
+		AB716CB1242E253800804253 /* ELKNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CA0242E253800804253 /* ELKNoDataView.m */; };
+		AB716CB2242E253800804253 /* ELKSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CA4242E253800804253 /* ELKSegmentControl.m */; };
+		AB716CB3242E253800804253 /* ELKPapawView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CA6242E253800804253 /* ELKPapawView.m */; };
+		AB716CC0242E254300804253 /* ELKStarView+ELKUtilChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CB9242E254300804253 /* ELKStarView+ELKUtilChained.m */; };
+		AB716CC1242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CBB242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.m */; };
+		AB716CC2242E254300804253 /* ELKSegmentControl+ELKUtilChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB716CBF242E254300804253 /* ELKSegmentControl+ELKUtilChained.m */; };
+		AB716CC4242E288800804253 /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB716CC3242E288800804253 /* ELKUtilResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +74,42 @@
 		AB716BEC242E110C00804253 /* ELKUtilDemoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKUtilDemoPrefixHeader.pch; sourceTree = "<group>"; };
 		AB716BED242E116800804253 /* ELKUtilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ELKUtilKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB716BEF242E116800804253 /* ELKUtilKitChained.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ELKUtilKitChained.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB716BF1242E118600804253 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ../../../ELKProducts/Release/ELKUtilResources.bundle; sourceTree = "<group>"; };
 		AB716BF3242E11A500804253 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		AB716BF4242E11A500804253 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AB716C81242E253800804253 /* ELKUtilKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilKit.h; sourceTree = "<group>"; };
+		AB716C83242E253800804253 /* NSBundle+ELKUtilResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ELKUtilResources.m"; sourceTree = "<group>"; };
+		AB716C84242E253800804253 /* UIImage+ELKUtilResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ELKUtilResources.h"; sourceTree = "<group>"; };
+		AB716C85242E253800804253 /* NSBundle+ELKUtilResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ELKUtilResources.h"; sourceTree = "<group>"; };
+		AB716C86242E253800804253 /* UIImage+ELKUtilResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELKUtilResources.m"; sourceTree = "<group>"; };
+		AB716C89242E253800804253 /* ELKUtilQuant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilQuant.h; sourceTree = "<group>"; };
+		AB716C8A242E253800804253 /* ELKUtilQuant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKUtilQuant.m; sourceTree = "<group>"; };
+		AB716C8C242E253800804253 /* ELKUtilSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilSwizzling.h; sourceTree = "<group>"; };
+		AB716C8D242E253800804253 /* ELKUtilSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKUtilSwizzling.m; sourceTree = "<group>"; };
+		AB716C8E242E253800804253 /* ELKUtilDefinesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilDefinesHeader.h; sourceTree = "<group>"; };
+		AB716C91242E253800804253 /* ELKGalleryShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKGalleryShowView.h; sourceTree = "<group>"; };
+		AB716C92242E253800804253 /* ELKGalleryShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKGalleryShowView.m; sourceTree = "<group>"; };
+		AB716C95242E253800804253 /* ELKDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKDatePickerView.h; sourceTree = "<group>"; };
+		AB716C96242E253800804253 /* ELKDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKDatePickerView.m; sourceTree = "<group>"; };
+		AB716C98242E253800804253 /* ELKStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKStarView.m; sourceTree = "<group>"; };
+		AB716C99242E253800804253 /* ELKFiveStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKFiveStarView.m; sourceTree = "<group>"; };
+		AB716C9A242E253800804253 /* ELKFiveStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKFiveStarView.h; sourceTree = "<group>"; };
+		AB716C9B242E253800804253 /* ELKStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKStarView.h; sourceTree = "<group>"; };
+		AB716C9D242E253800804253 /* UITextView+ELKPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ELKPlaceHolder.h"; sourceTree = "<group>"; };
+		AB716C9E242E253800804253 /* UITextView+ELKPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ELKPlaceHolder.m"; sourceTree = "<group>"; };
+		AB716CA0242E253800804253 /* ELKNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKNoDataView.m; sourceTree = "<group>"; };
+		AB716CA1242E253800804253 /* ELKNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKNoDataView.h; sourceTree = "<group>"; };
+		AB716CA3242E253800804253 /* ELKSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKSegmentControl.h; sourceTree = "<group>"; };
+		AB716CA4242E253800804253 /* ELKSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKSegmentControl.m; sourceTree = "<group>"; };
+		AB716CA6242E253800804253 /* ELKPapawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKPapawView.m; sourceTree = "<group>"; };
+		AB716CA7242E253800804253 /* ELKPapawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKPapawView.h; sourceTree = "<group>"; };
+		AB716CB5242E254300804253 /* ELKUtilKitChained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilKitChained.h; sourceTree = "<group>"; };
+		AB716CB8242E254300804253 /* ELKStarView+ELKUtilChained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELKStarView+ELKUtilChained.h"; sourceTree = "<group>"; };
+		AB716CB9242E254300804253 /* ELKStarView+ELKUtilChained.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELKStarView+ELKUtilChained.m"; sourceTree = "<group>"; };
+		AB716CBB242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ELKUtilPlaceHolderChained.m"; sourceTree = "<group>"; };
+		AB716CBC242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ELKUtilPlaceHolderChained.h"; sourceTree = "<group>"; };
+		AB716CBE242E254300804253 /* ELKSegmentControl+ELKUtilChained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELKSegmentControl+ELKUtilChained.h"; sourceTree = "<group>"; };
+		AB716CBF242E254300804253 /* ELKSegmentControl+ELKUtilChained.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELKSegmentControl+ELKUtilChained.m"; sourceTree = "<group>"; };
+		AB716CC3242E288800804253 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ELKUtilDemo/ELKProducts/Release/ELKUtilResources.bundle; sourceTree = SOURCE_ROOT; };
 		DA58263FCEF00663828A6F3A /* Pods-ELKUtilDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilDemo.release.xcconfig"; path = "Target Support Files/Pods-ELKUtilDemo/Pods-ELKUtilDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,8 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB716BEE242E116800804253 /* ELKUtilKit.framework in Frameworks */,
-				AB716BF0242E116800804253 /* ELKUtilKitChained.framework in Frameworks */,
 				120FDD628548374E8704D1B2 /* libPods-ELKUtilDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +186,8 @@
 			children = (
 				AB716A70242E071900804253 /* AppDelegate.h */,
 				AB716A71242E071900804253 /* AppDelegate.m */,
+				AB716C80242E253800804253 /* ELKUtilKit */,
+				AB716CB4242E254300804253 /* ELKUtilKitChained */,
 				AB716BF4242E11A500804253 /* SecondViewController.h */,
 				AB716BF3242E11A500804253 /* SecondViewController.m */,
 				AB716A76242E071900804253 /* ViewController.h */,
@@ -174,13 +220,198 @@
 			children = (
 				AB716A7C242E071A00804253 /* Assets.xcassets */,
 				AB716BEC242E110C00804253 /* ELKUtilDemoPrefixHeader.pch */,
-				AB716BF1242E118600804253 /* ELKUtilResources.bundle */,
+				AB716CC3242E288800804253 /* ELKUtilResources.bundle */,
 				AB716A81242E071A00804253 /* Info.plist */,
 				AB716A7E242E071A00804253 /* LaunchScreen.storyboard */,
 				AB716A82242E071A00804253 /* main.m */,
 				AB716A79242E071900804253 /* Main.storyboard */,
 			);
 			path = ZOthers;
+			sourceTree = "<group>";
+		};
+		AB716C80242E253800804253 /* ELKUtilKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C82242E253800804253 /* Category */,
+				AB716C8E242E253800804253 /* ELKUtilDefinesHeader.h */,
+				AB716C81242E253800804253 /* ELKUtilKit.h */,
+				AB716C8F242E253800804253 /* Modules */,
+				AB716C87242E253800804253 /* Utils */,
+			);
+			name = ELKUtilKit;
+			path = ELKUtilKit/ELKUtilKit;
+			sourceTree = "<group>";
+		};
+		AB716C82242E253800804253 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C83242E253800804253 /* NSBundle+ELKUtilResources.m */,
+				AB716C84242E253800804253 /* UIImage+ELKUtilResources.h */,
+				AB716C85242E253800804253 /* NSBundle+ELKUtilResources.h */,
+				AB716C86242E253800804253 /* UIImage+ELKUtilResources.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AB716C87242E253800804253 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C88242E253800804253 /* Quant */,
+				AB716C8B242E253800804253 /* Swizzling */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AB716C88242E253800804253 /* Quant */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C89242E253800804253 /* ELKUtilQuant.h */,
+				AB716C8A242E253800804253 /* ELKUtilQuant.m */,
+			);
+			path = Quant;
+			sourceTree = "<group>";
+		};
+		AB716C8B242E253800804253 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C8C242E253800804253 /* ELKUtilSwizzling.h */,
+				AB716C8D242E253800804253 /* ELKUtilSwizzling.m */,
+			);
+			path = Swizzling;
+			sourceTree = "<group>";
+		};
+		AB716C8F242E253800804253 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C90242E253800804253 /* ELKGalleryView */,
+				AB716C93242E253800804253 /* ELKPicker */,
+				AB716C97242E253800804253 /* ELKStarView */,
+				AB716C9C242E253800804253 /* ELKTextViewPlaceholder */,
+				AB716C9F242E253800804253 /* ELKNoDataView */,
+				AB716CA2242E253800804253 /* ELKSegmentControl */,
+				AB716CA5242E253800804253 /* ELKPapawView */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AB716C90242E253800804253 /* ELKGalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C91242E253800804253 /* ELKGalleryShowView.h */,
+				AB716C92242E253800804253 /* ELKGalleryShowView.m */,
+			);
+			path = ELKGalleryView;
+			sourceTree = "<group>";
+		};
+		AB716C93242E253800804253 /* ELKPicker */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C94242E253800804253 /* ELKDatePickerView */,
+			);
+			path = ELKPicker;
+			sourceTree = "<group>";
+		};
+		AB716C94242E253800804253 /* ELKDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C95242E253800804253 /* ELKDatePickerView.h */,
+				AB716C96242E253800804253 /* ELKDatePickerView.m */,
+			);
+			path = ELKDatePickerView;
+			sourceTree = "<group>";
+		};
+		AB716C97242E253800804253 /* ELKStarView */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C98242E253800804253 /* ELKStarView.m */,
+				AB716C99242E253800804253 /* ELKFiveStarView.m */,
+				AB716C9A242E253800804253 /* ELKFiveStarView.h */,
+				AB716C9B242E253800804253 /* ELKStarView.h */,
+			);
+			path = ELKStarView;
+			sourceTree = "<group>";
+		};
+		AB716C9C242E253800804253 /* ELKTextViewPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				AB716C9D242E253800804253 /* UITextView+ELKPlaceHolder.h */,
+				AB716C9E242E253800804253 /* UITextView+ELKPlaceHolder.m */,
+			);
+			path = ELKTextViewPlaceholder;
+			sourceTree = "<group>";
+		};
+		AB716C9F242E253800804253 /* ELKNoDataView */ = {
+			isa = PBXGroup;
+			children = (
+				AB716CA0242E253800804253 /* ELKNoDataView.m */,
+				AB716CA1242E253800804253 /* ELKNoDataView.h */,
+			);
+			path = ELKNoDataView;
+			sourceTree = "<group>";
+		};
+		AB716CA2242E253800804253 /* ELKSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				AB716CA3242E253800804253 /* ELKSegmentControl.h */,
+				AB716CA4242E253800804253 /* ELKSegmentControl.m */,
+			);
+			path = ELKSegmentControl;
+			sourceTree = "<group>";
+		};
+		AB716CA5242E253800804253 /* ELKPapawView */ = {
+			isa = PBXGroup;
+			children = (
+				AB716CA6242E253800804253 /* ELKPapawView.m */,
+				AB716CA7242E253800804253 /* ELKPapawView.h */,
+			);
+			path = ELKPapawView;
+			sourceTree = "<group>";
+		};
+		AB716CB4242E254300804253 /* ELKUtilKitChained */ = {
+			isa = PBXGroup;
+			children = (
+				AB716CB5242E254300804253 /* ELKUtilKitChained.h */,
+				AB716CB6242E254300804253 /* Modules */,
+			);
+			name = ELKUtilKitChained;
+			path = ELKUtilKitChained/ELKUtilKitChained;
+			sourceTree = "<group>";
+		};
+		AB716CB6242E254300804253 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AB716CB7242E254300804253 /* ELKStarView */,
+				AB716CBA242E254300804253 /* ELKTextViewPlaceholder */,
+				AB716CBD242E254300804253 /* ELKSegmentControl */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AB716CB7242E254300804253 /* ELKStarView */ = {
+			isa = PBXGroup;
+			children = (
+				AB716CB8242E254300804253 /* ELKStarView+ELKUtilChained.h */,
+				AB716CB9242E254300804253 /* ELKStarView+ELKUtilChained.m */,
+			);
+			path = ELKStarView;
+			sourceTree = "<group>";
+		};
+		AB716CBA242E254300804253 /* ELKTextViewPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				AB716CBB242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.m */,
+				AB716CBC242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.h */,
+			);
+			path = ELKTextViewPlaceholder;
+			sourceTree = "<group>";
+		};
+		AB716CBD242E254300804253 /* ELKSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				AB716CBE242E254300804253 /* ELKSegmentControl+ELKUtilChained.h */,
+				AB716CBF242E254300804253 /* ELKSegmentControl+ELKUtilChained.m */,
+			);
+			path = ELKSegmentControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +518,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB716BF2242E118600804253 /* ELKUtilResources.bundle in Resources */,
+				AB716CC4242E288800804253 /* ELKUtilResources.bundle in Resources */,
 				AB716A80242E071A00804253 /* LaunchScreen.storyboard in Resources */,
 				AB716A7D242E071A00804253 /* Assets.xcassets in Resources */,
 				AB716A7B242E071900804253 /* Main.storyboard in Resources */,
@@ -340,10 +571,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB716CB0242E253800804253 /* UITextView+ELKPlaceHolder.m in Sources */,
+				AB716CC1242E254300804253 /* UITextView+ELKUtilPlaceHolderChained.m in Sources */,
+				AB716CAB242E253800804253 /* ELKUtilSwizzling.m in Sources */,
+				AB716CB1242E253800804253 /* ELKNoDataView.m in Sources */,
+				AB716CC2242E254300804253 /* ELKSegmentControl+ELKUtilChained.m in Sources */,
+				AB716CA9242E253800804253 /* UIImage+ELKUtilResources.m in Sources */,
+				AB716CAE242E253800804253 /* ELKStarView.m in Sources */,
+				AB716CB2242E253800804253 /* ELKSegmentControl.m in Sources */,
+				AB716CAA242E253800804253 /* ELKUtilQuant.m in Sources */,
+				AB716CA8242E253800804253 /* NSBundle+ELKUtilResources.m in Sources */,
 				AB716BF5242E11A600804253 /* SecondViewController.m in Sources */,
+				AB716CB3242E253800804253 /* ELKPapawView.m in Sources */,
 				AB716A78242E071900804253 /* ViewController.m in Sources */,
+				AB716CAF242E253800804253 /* ELKFiveStarView.m in Sources */,
 				AB716A72242E071900804253 /* AppDelegate.m in Sources */,
+				AB716CAD242E253800804253 /* ELKDatePickerView.m in Sources */,
 				AB716A83242E071A00804253 /* main.m in Sources */,
+				AB716CAC242E253800804253 /* ELKGalleryShowView.m in Sources */,
+				AB716CC0242E254300804253 /* ELKStarView+ELKUtilChained.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

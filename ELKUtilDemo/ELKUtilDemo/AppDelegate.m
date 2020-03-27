@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <ELKUtilKit/ELKUtilKit.h>
+#import "ELKUtilKit.h"
 #import <UMCommon/UMCommon.h>
 #import <UMAnalytics/MobClick.h>
 

@@ -5,12 +5,6 @@
       location = "group:ELKUtilDemo/ELKUtilDemo.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ELKUtilKit/ELKUtilKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:ELKUtilKitChained/ELKUtilKitChained.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ELKUtilResources/ELKUtilResources.xcodeproj">
    </FileRef>
    <FileRef

@@ -20,28 +20,28 @@ end
 
 
 
-target 'ELKUtilKit' do
+#target 'ELKUtilKit' do
+#
+#  platform :ios , '9.0'
+#  project 'ELKUtilKit/ELKUtilKit.xcodeproj'
+#
+#
+#  pod 'SDWebImage'
+#
+#
+#
+#end
 
-  platform :ios , '9.0'
-  project 'ELKUtilKit/ELKUtilKit.xcodeproj'
 
-
-  pod 'SDWebImage'
-
-
-
-end
-
-
-target 'ELKUtilKitChained' do
-  
-  platform :ios , '9.0'
-  project 'ELKUtilKitChained/ELKUtilKitChained.xcodeproj'
-  
-  
-  pod 'SDWebImage'
-  
-  
-  
-end
+#target 'ELKUtilKitChained' do
+#
+#  platform :ios , '9.0'
+#  project 'ELKUtilKitChained/ELKUtilKitChained.xcodeproj'
+#
+#
+#  pod 'SDWebImage'
+#
+#
+#
+#end
 
