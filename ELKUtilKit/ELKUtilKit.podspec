@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
     spec.ios.frameworks      = 'Foundation', 'UIKit'
 
-    spec.dependency 'SDWebImage'
+    spec.dependency 'SDWebImage', '~> 5.6.1'
     
 
 end
