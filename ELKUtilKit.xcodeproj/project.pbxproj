@@ -32,7 +32,7 @@
 		AB70FC39242E5501006F991B /* ELKStarView+ELKUtilChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC32242E5501006F991B /* ELKStarView+ELKUtilChained.m */; };
 		AB70FC3A242E5501006F991B /* UITextView+ELKUtilPlaceHolderChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC34242E5501006F991B /* UITextView+ELKUtilPlaceHolderChained.m */; };
 		AB70FC3B242E5501006F991B /* ELKSegmentControl+ELKUtilChained.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC38242E5501006F991B /* ELKSegmentControl+ELKUtilChained.m */; };
-		AB70FC40242E57CB006F991B /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB70FC3F242E57CB006F991B /* ELKUtilResources.bundle */; };
+		AB70FC42242E6CE2006F991B /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB70FC41242E6CE2006F991B /* ELKUtilResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,7 +107,7 @@
 		AB70FC37242E5501006F991B /* ELKSegmentControl+ELKUtilChained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ELKSegmentControl+ELKUtilChained.h"; sourceTree = "<group>"; };
 		AB70FC38242E5501006F991B /* ELKSegmentControl+ELKUtilChained.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ELKSegmentControl+ELKUtilChained.m"; sourceTree = "<group>"; };
 		AB70FC3E242E5642006F991B /* ELKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKPrefixHeader.pch; sourceTree = "<group>"; };
-		AB70FC3F242E57CB006F991B /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ELKUtilKit/ELKProducts/Release/ELKUtilResources.bundle; sourceTree = SOURCE_ROOT; };
+		AB70FC41242E6CE2006F991B /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ELKProducts/Release/ELKUtilResources.bundle; sourceTree = SOURCE_ROOT; };
 		BC8613332983C5030E0C3212 /* Pods-ELKUtilKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilKit.debug.xcconfig"; path = "Target Support Files/Pods-ELKUtilKit/Pods-ELKUtilKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,13 +205,13 @@
 		AB70FB63242E52DD006F991B /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				AB70FB37242E52B8006F991B /* Main.storyboard */,
 				AB70FB3A242E52B9006F991B /* Assets.xcassets */,
-				AB70FB3C242E52B9006F991B /* LaunchScreen.storyboard */,
-				AB70FB3F242E52B9006F991B /* Info.plist */,
 				AB70FC3E242E5642006F991B /* ELKPrefixHeader.pch */,
-				AB70FC3F242E57CB006F991B /* ELKUtilResources.bundle */,
+				AB70FC41242E6CE2006F991B /* ELKUtilResources.bundle */,
+				AB70FB3F242E52B9006F991B /* Info.plist */,
+				AB70FB3C242E52B9006F991B /* LaunchScreen.storyboard */,
 				AB70FB40242E52B9006F991B /* main.m */,
+				AB70FB37242E52B8006F991B /* Main.storyboard */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -219,11 +219,11 @@
 		AB70FBF9242E54F7006F991B /* ELKUtilKit */ = {
 			isa = PBXGroup;
 			children = (
+				AB70FC07242E54F7006F991B /* ELKUtilDefinesHeader.h */,
 				AB70FBFA242E54F7006F991B /* ELKUtilKit.h */,
 				AB70FBFB242E54F7006F991B /* Category */,
-				AB70FC00242E54F7006F991B /* Utils */,
-				AB70FC07242E54F7006F991B /* ELKUtilDefinesHeader.h */,
 				AB70FC08242E54F7006F991B /* Modules */,
+				AB70FC00242E54F7006F991B /* Utils */,
 			);
 			name = ELKUtilKit;
 			path = ELKUtilKit/ELKUtilKit;
@@ -232,9 +232,9 @@
 		AB70FBFB242E54F7006F991B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				AB70FBFE242E54F7006F991B /* NSBundle+ELKUtilResources.h */,
 				AB70FBFC242E54F7006F991B /* NSBundle+ELKUtilResources.m */,
 				AB70FBFD242E54F7006F991B /* UIImage+ELKUtilResources.h */,
-				AB70FBFE242E54F7006F991B /* NSBundle+ELKUtilResources.h */,
 				AB70FBFF242E54F7006F991B /* UIImage+ELKUtilResources.m */,
 			);
 			path = Category;
@@ -271,12 +271,12 @@
 			isa = PBXGroup;
 			children = (
 				AB70FC09242E54F7006F991B /* ELKGalleryView */,
+				AB70FC18242E54F7006F991B /* ELKNoDataView */,
+				AB70FC1E242E54F7006F991B /* ELKPapawView */,
 				AB70FC0C242E54F7006F991B /* ELKPicker */,
+				AB70FC1B242E54F7006F991B /* ELKSegmentControl */,
 				AB70FC10242E54F7006F991B /* ELKStarView */,
 				AB70FC15242E54F7006F991B /* ELKTextViewPlaceholder */,
-				AB70FC18242E54F7006F991B /* ELKNoDataView */,
-				AB70FC1B242E54F7006F991B /* ELKSegmentControl */,
-				AB70FC1E242E54F7006F991B /* ELKPapawView */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -310,10 +310,10 @@
 		AB70FC10242E54F7006F991B /* ELKStarView */ = {
 			isa = PBXGroup;
 			children = (
-				AB70FC11242E54F7006F991B /* ELKStarView.m */,
-				AB70FC12242E54F7006F991B /* ELKFiveStarView.m */,
 				AB70FC13242E54F7006F991B /* ELKFiveStarView.h */,
+				AB70FC12242E54F7006F991B /* ELKFiveStarView.m */,
 				AB70FC14242E54F7006F991B /* ELKStarView.h */,
+				AB70FC11242E54F7006F991B /* ELKStarView.m */,
 			);
 			path = ELKStarView;
 			sourceTree = "<group>";
@@ -330,8 +330,8 @@
 		AB70FC18242E54F7006F991B /* ELKNoDataView */ = {
 			isa = PBXGroup;
 			children = (
-				AB70FC19242E54F7006F991B /* ELKNoDataView.m */,
 				AB70FC1A242E54F7006F991B /* ELKNoDataView.h */,
+				AB70FC19242E54F7006F991B /* ELKNoDataView.m */,
 			);
 			path = ELKNoDataView;
 			sourceTree = "<group>";
@@ -348,8 +348,8 @@
 		AB70FC1E242E54F7006F991B /* ELKPapawView */ = {
 			isa = PBXGroup;
 			children = (
-				AB70FC1F242E54F7006F991B /* ELKPapawView.m */,
 				AB70FC20242E54F7006F991B /* ELKPapawView.h */,
+				AB70FC1F242E54F7006F991B /* ELKPapawView.m */,
 			);
 			path = ELKPapawView;
 			sourceTree = "<group>";
@@ -513,7 +513,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB70FC40242E57CB006F991B /* ELKUtilResources.bundle in Resources */,
+				AB70FC42242E6CE2006F991B /* ELKUtilResources.bundle in Resources */,
 				AB70FB3E242E52B9006F991B /* LaunchScreen.storyboard in Resources */,
 				AB70FB3B242E52B9006F991B /* Assets.xcassets in Resources */,
 				AB70FB39242E52B8006F991B /* Main.storyboard in Resources */,
