@@ -7,6 +7,7 @@
 //
 
 #import "ELKUtilSwizzling.h"
+#import <objc/runtime.h>
 
 @implementation ELKUtilSwizzling
 

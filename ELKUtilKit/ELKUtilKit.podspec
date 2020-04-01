@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
     spec.name         = "ELKUtilKit"
 
-    spec.version      = "1.2.1"
+    spec.version      = "1.2.2"
     
     spec.summary      = "Util"
     spec.description  = <<-DESC
@@ -20,9 +20,11 @@ Pod::Spec.new do |spec|
     spec.source_files        = 'ELKUtilKit/**/*.{h,m}'
     spec.resources           = 'ELKUtilKit/ELKUtilResources.bundle'
 
-    spec.ios.frameworks      = 'Foundation', 'UIKit'
+    spec.ios.frameworks      = 'Foundation', 'UIKit', 'SystemConfiguration'
+    spec.libraries   = 'c++', 'z'
 
-    spec.dependency 'SDWebImage', '~> 5.6.1'
+    spec.dependency 'SDWebImage'
+    
     
 
 end
