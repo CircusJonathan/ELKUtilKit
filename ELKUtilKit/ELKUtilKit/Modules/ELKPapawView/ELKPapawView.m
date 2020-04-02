@@ -78,7 +78,7 @@ static CGFloat ELK_papawViewMinY  = 130.f;
     self = [super init];
     if (self) {
         self.papawDirect = YES;
-        self.frame = CGRectMake(ELK_SCREEN_WIDTH - ELK_papawViewWidth - 10.f, ELK_papawViewMinY, ELK_papawViewWidth, ELK_papawViewWidth);
+        self.frame = CGRectMake(ELKScreenWidth - ELK_papawViewWidth - 10.f, ELK_papawViewMinY, ELK_papawViewWidth, ELK_papawViewWidth);
         self.backgroundColor = [UIColor clearColor];
         self.layer.cornerRadius = ELK_papawViewWidth / 2.f;
         self.layer.masksToBounds = YES;
@@ -122,7 +122,7 @@ static CGFloat ELK_papawViewMinY  = 130.f;
     return _titleLabel ?: ({
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.textAlignment = NSTextAlignmentCenter;
-        _titleLabel.textColor = ELKHexColor(0x333333, 1.f);
+        _titleLabel.textColor = ELK_HexColor(0x333333, 1.f);
         _titleLabel.font = [UIFont systemFontOfSize:18.f];
         _titleLabel;
     });
@@ -151,10 +151,10 @@ static CGFloat ELK_papawViewMinY  = 130.f;
     ELK_papawViewMinY = panPoint.y - ELK_papawViewWidth / 2.f;
     if (ELK_papawViewMinY <= ELK_safeTop(NO)) {
         ELK_papawViewMinY = ELK_safeTop(NO);
-    } else if (ELK_papawViewMinY >= ELK_SCREEN_HEIGHT - ELK_papawViewWidth - ELK_safeBottom()) {
-        ELK_papawViewMinY = ELK_SCREEN_HEIGHT - ELK_papawViewWidth - ELK_safeBottom();
+    } else if (ELK_papawViewMinY >= ELKScreenHeight - ELK_papawViewWidth - ELK_safeBottom()) {
+        ELK_papawViewMinY = ELKScreenHeight - ELK_papawViewWidth - ELK_safeBottom();
     }
-    if (panPoint.x > ELK_SCREEN_WIDTH / 2.f) {
+    if (panPoint.x > ELKScreenWidth / 2.f) {
         self.papawDirect = YES;
     } else {
         self.papawDirect = NO;
@@ -164,7 +164,7 @@ static CGFloat ELK_papawViewMinY  = 130.f;
         [UIView animateWithDuration:0.15f animations:^{
             CGFloat papVX = 10.f;
             if (self.papawDirect) {
-                papVX = ELK_SCREEN_WIDTH - ELK_papawViewWidth - 10.f;
+                papVX = ELKScreenWidth - ELK_papawViewWidth - 10.f;
             }
             self.frame = CGRectMake(papVX, ELK_papawViewMinY, ELK_papawViewWidth, ELK_papawViewWidth);
         }];
@@ -191,7 +191,7 @@ static CGFloat ELK_papawViewMinY  = 130.f;
     [UIView animateWithDuration:0.35f animations:^{
         CGFloat papVX = -ELK_papawViewWidth / 2.f;
         if (self.papawDirect) {
-            papVX = ELK_SCREEN_WIDTH - ELK_papawViewWidth / 2.f;
+            papVX = ELKScreenWidth - ELK_papawViewWidth / 2.f;
         }
         self.frame = CGRectMake(papVX, ELK_papawViewMinY, ELK_papawViewWidth, ELK_papawViewWidth);
         self.alpha = 0.35f;
@@ -207,7 +207,7 @@ static CGFloat ELK_papawViewMinY  = 130.f;
         self.alpha = 1.f;
         CGFloat papVX = 10.f;
         if (self.papawDirect) {
-            papVX = ELK_SCREEN_WIDTH - ELK_papawViewWidth - 10.f;
+            papVX = ELKScreenWidth - ELK_papawViewWidth - 10.f;
         }
         self.frame = CGRectMake(papVX, ELK_papawViewMinY, ELK_papawViewWidth, ELK_papawViewWidth);
     } completion:^(BOOL finished) {

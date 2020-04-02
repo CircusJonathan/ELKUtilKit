@@ -64,7 +64,7 @@
         _remindLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.f, CGRectGetMaxY(_remindImgView.frame) + 24.f, CGRectGetWidth(_dataView.frame), 20.f)];
         _remindLabel.font = [UIFont systemFontOfSize:16.f];
         _remindLabel.textAlignment = NSTextAlignmentCenter;
-        _remindLabel.textColor = ELKHexColor(0x333333, 1.f);
+        _remindLabel.textColor = ELK_HexColor(0x333333, 1.f);
         _remindLabel.numberOfLines = 0;
         [_dataView addSubview:_remindLabel];
         [self addSubview:_dataView];

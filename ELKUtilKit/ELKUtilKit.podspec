@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
     
    # spec.public_header_files = 'ELKUtilKit/ELKUtilKit.h'
     spec.source_files        = 'ELKUtilKit/**/*.{h,m}'
-    spec.resources           = 'ELKUtilKit/ELKUtilResources.bundle'
+    spec.resources           = 'ELKUtilKit/**/*.bundle'
 
     spec.ios.frameworks      = 'Foundation', 'UIKit', 'SystemConfiguration'
     spec.libraries   = 'c++', 'z'

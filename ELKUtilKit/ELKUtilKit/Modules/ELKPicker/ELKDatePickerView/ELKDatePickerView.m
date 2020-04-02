@@ -77,16 +77,16 @@
         
     }
 //    [UIView animateWithDuration:0.4f animations:^{
-//        self.backView.backgroundColor = ELKHexColor(0x000000, 0.4f);
-//        self.pickView.frame = CGRectMake(0.f, ELK_SCREEN_HEIGHT - 220.f - BtSafeBottom(), ELK_SCREEN_WIDTH, 220.f + BtSafeBottom());
+//        self.backView.backgroundColor = ELK_HexColor(0x000000, 0.4f);
+//        self.pickView.frame = CGRectMake(0.f, ELKScreenHeight - 220.f - BtSafeBottom(), ELKScreenWidth, 220.f + BtSafeBottom());
 //    }];
     
 }
 - (void)hiddenDatePickerView
 {
 //    [UIView animateWithDuration:0.3f animations:^{
-//        self.backView.backgroundColor = ELKHexColor(0x000000, 0.02f);
-//        self.pickView.frame = CGRectMake(0.f, ELK_SCREEN_HEIGHT, ELK_SCREEN_WIDTH, 220.f + BtSafeBottom());
+//        self.backView.backgroundColor = ELK_HexColor(0x000000, 0.02f);
+//        self.pickView.frame = CGRectMake(0.f, ELKScreenHeight, ELKScreenWidth, 220.f + BtSafeBottom());
 //    } completion:^(BOOL finished) {
 //        [self removeFromSuperview];
 //        self.datePickerView.hidden = YES;
@@ -110,16 +110,16 @@
     if (!_backView) {
         self.frame = [UIScreen mainScreen].bounds;
         _backView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        _backView.backgroundColor = ELKHexColor(0x000000, 0.4f);
+        _backView.backgroundColor = ELK_HexColor(0x000000, 0.4f);
         [self addSubview:_backView];
         UITapGestureRecognizer *tapGest = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGesture:)];
         [_backView addGestureRecognizer:tapGest];
         
-//        _pickView = [[UIView alloc] initWithFrame:CGRectMake(0.f, ELK_SCREEN_HEIGHT, ELK_SCREEN_WIDTH, 220.f + BtSafeBottom())];
+//        _pickView = [[UIView alloc] initWithFrame:CGRectMake(0.f, ELKScreenHeight, ELKScreenWidth, 220.f + BtSafeBottom())];
 //        _pickView.backgroundColor = [UIColor whiteColor];
 //        [_backView addSubview:_pickView];
         
-        _topView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, ELK_SCREEN_WIDTH, 44.f)];
+        _topView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, ELKScreenWidth, 44.f)];
         _topView.backgroundColor = [UIColor clearColor];
         [_pickView addSubview:_topView];
         
@@ -127,22 +127,22 @@
         _cancelButton.frame = CGRectMake(0.f, 0.f, 60.f, 44.f);
         [_cancelButton setTitle:@"取消" forState:UIControlStateNormal];
         _cancelButton.titleLabel.font = [UIFont systemFontOfSize:14.f];
-        [_cancelButton setTitleColor:ELKHexColor(0x333333, 1.f) forState:UIControlStateNormal];
+        [_cancelButton setTitleColor:ELK_HexColor(0x333333, 1.f) forState:UIControlStateNormal];
         [_cancelButton addTarget:self action:@selector(cancelButtonAcion:) forControlEvents:UIControlEventTouchUpInside];
         [_topView addSubview:_cancelButton];
         
         _submitButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        _submitButton.frame = CGRectMake(ELK_SCREEN_WIDTH - 60.f, 0.f, 60.f, 44.f);
+        _submitButton.frame = CGRectMake(ELKScreenWidth - 60.f, 0.f, 60.f, 44.f);
         [_submitButton setTitle:@"确定" forState:UIControlStateNormal];
         _submitButton.titleLabel.font = [UIFont systemFontOfSize:14.f];
-        [_submitButton setTitleColor:ELKHexColor(0x333333, 1.f) forState:UIControlStateNormal];
+        [_submitButton setTitleColor:ELK_HexColor(0x333333, 1.f) forState:UIControlStateNormal];
         [_submitButton addTarget:self action:@selector(submitButtonAction:) forControlEvents:UIControlEventTouchUpInside];
         [_topView addSubview:_submitButton];
         
         [_topView addSubview:self.timeLabel];
         
-        UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 43.5f, ELK_SCREEN_WIDTH, 0.5f)];
-        lineView.backgroundColor = ELKHexColor(0x666666, 1.f);
+        UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 43.5f, ELKScreenWidth, 0.5f)];
+        lineView.backgroundColor = ELK_HexColor(0x666666, 1.f);
         [_topView addSubview:lineView];
         
         // 配置日期选择器
@@ -160,7 +160,7 @@
 // 配置日期选择器
 - (void)configDatePickerView
 {
-    _datePickerView = [[UIDatePicker alloc] initWithFrame:CGRectMake(0.f, 50.f, ELK_SCREEN_WIDTH, 160.f)];
+    _datePickerView = [[UIDatePicker alloc] initWithFrame:CGRectMake(0.f, 50.f, ELKScreenWidth, 160.f)];
     _datePickerView.backgroundColor = [UIColor clearColor];
     [_datePickerView setDatePickerMode:UIDatePickerModeDate];
     [_datePickerView setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"zh_Hans_CN"]];
@@ -169,7 +169,7 @@
     _datePickerView.minimumDate = [NSDate dateWithTimeIntervalSinceNow:24 * 60 * 60];//24 * 60 * 60];
     _datePickerView.minimumDate = [NSDate date];
     _datePickerView.maximumDate = [NSDate dateWithTimeIntervalSinceNow:365 * 24 * 60 * 60];
-    [_datePickerView setValue:ELKHexColor(0x333333, 1.f) forKeyPath:@"textColor"];
+    [_datePickerView setValue:ELK_HexColor(0x333333, 1.f) forKeyPath:@"textColor"];
     [_datePickerView addTarget:self action:@selector(dateChanged:) forControlEvents:UIControlEventValueChanged];
     [_pickView addSubview:_datePickerView];
     _datePickerView.hidden = YES;
@@ -177,10 +177,10 @@
 // 配置时间选择器
 - (void)configTimePickerView
 {
-    _timeSelView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 50.f, ELK_SCREEN_WIDTH, 160)];
+    _timeSelView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 50.f, ELKScreenWidth, 160)];
     _timeSelView.backgroundColor = [UIColor whiteColor];
     
-    _timePickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.f, 50.f, ELK_SCREEN_WIDTH, 110.f)];
+    _timePickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.f, 50.f, ELKScreenWidth, 110.f)];
     _timePickerView.delegate = self;
     _timePickerView.dataSource = self;
     [_timeSelView addSubview:_timePickerView];
@@ -192,10 +192,10 @@
 // 配置时间选择器
 - (void)configYMPickerView
 {
-    _ymView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 50.f, ELK_SCREEN_WIDTH, 160.f)];
+    _ymView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 50.f, ELKScreenWidth, 160.f)];
     _ymView.backgroundColor = [UIColor whiteColor];
     
-    _ymPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.f, 50.f, ELK_SCREEN_WIDTH, 110.f)];
+    _ymPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.f, 50.f, ELKScreenWidth, 110.f)];
     _ymPickerView.delegate = self;
     _ymPickerView.dataSource = self;
     [_ymView addSubview:_ymPickerView];
@@ -284,9 +284,9 @@
 - (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component
 {
     if (pickerView == self.timePickerView) {
-        return ELK_SCREEN_WIDTH;
+        return ELKScreenWidth;
     }
-    return ELK_SCREEN_WIDTH / 2.f;
+    return ELKScreenWidth / 2.f;
 }
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
 {
@@ -378,9 +378,9 @@
 - (UILabel *)timeLabel
 {
     return _timeLabel ?: ({
-        _timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(90.f, 10.f, ELK_SCREEN_WIDTH - 180.f, 20.f)];
+        _timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(90.f, 10.f, ELKScreenWidth - 180.f, 20.f)];
         _timeLabel.font = [UIFont systemFontOfSize:14.f];
-        _timeLabel.textColor = ELKHexColor(0x333333, 1.f);
+        _timeLabel.textColor = ELK_HexColor(0x333333, 1.f);
         _timeLabel.textAlignment = NSTextAlignmentCenter;
         _timeLabel.hidden = YES;
         _timeLabel;

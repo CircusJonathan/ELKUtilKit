@@ -59,7 +59,7 @@
     galleryView.imgOriRect = oriRect;
     galleryView.imageView.contentMode = imgView.contentMode;
     galleryView.imageView.frame = CGRectMake(oriRect.origin.x, oriRect.origin.y, oriRect.size.width, oriRect.size.height);
-    [galleryView setBackgroundColor:ELKHexColor(0x000000, 0.02f)];
+    [galleryView setBackgroundColor:ELK_HexColor(0x000000, 0.02f)];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         CGSize imgSize = placeImage.size;
         [self adjustGalleryImgView:imgSize duration:0.25f];
@@ -110,7 +110,7 @@
     galleryView.imgOriRect = oriRect;
     galleryView.imageView.contentMode = imgView.contentMode;
     galleryView.imageView.frame = CGRectMake(oriRect.origin.x, oriRect.origin.y, oriRect.size.width, oriRect.size.height);
-    [galleryView setBackgroundColor:ELKHexColor(0x000000, 0.02f)];
+    [galleryView setBackgroundColor:ELK_HexColor(0x000000, 0.02f)];
     [galleryView.imageView setImage:placeImage];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         CGSize imgSize = placeImage.size;
@@ -137,7 +137,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setBackgroundColor:[UIColor blackColor]];
-        self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0.f, 0.f, ELK_SCREEN_WIDTH, ELK_SCREEN_HEIGHT)];
+        self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0.f, 0.f, ELKScreenWidth, ELKScreenHeight)];
         [self.scrollView setBackgroundColor:[UIColor clearColor]];
         self.scrollView.delegate = self;
         self.scrollView.showsVerticalScrollIndicator = NO;
@@ -148,16 +148,16 @@
         self.scrollView.minimumZoomScale = 1.f;
         self.scrollView.maximumZoomScale = 3.f;
         
-        self.contView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, ELK_SCREEN_WIDTH, ELK_SCREEN_HEIGHT)];
+        self.contView = [[UIView alloc] initWithFrame:CGRectMake(0.f, 0.f, ELKScreenWidth, ELKScreenHeight)];
         self.contView.backgroundColor = [UIColor clearColor];
         
-        self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.f, 0.f, ELK_SCREEN_WIDTH, ELK_SCREEN_HEIGHT)];
+        self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.f, 0.f, ELKScreenWidth, ELKScreenHeight)];
         self.imageView.clipsToBounds = YES;
         [self.imageView setBackgroundColor:[UIColor clearColor]];
         self.imageView.contentMode = UIViewContentModeScaleToFill;
         [self.contView addSubview:self.imageView];
         [self.scrollView addSubview:self.contView];
-        [self.scrollView setContentSize:CGSizeMake(ELK_SCREEN_WIDTH, ELK_SCREEN_HEIGHT)];
+        [self.scrollView setContentSize:CGSizeMake(ELKScreenWidth, ELKScreenHeight)];
         self.imgOriRect = self.imageView.frame;
         
         [self addSubview:self.scrollView];
@@ -181,23 +181,23 @@
     if (imgSize.width && imgSize.height) {
         imgZoomScale = 1.f * imgSize.width / imgSize.height;
     }
-    CGFloat scrScale = 1.f * ELK_SCREEN_WIDTH /  ELK_SCREEN_HEIGHT;
+    CGFloat scrScale = 1.f * ELKScreenWidth /  ELKScreenHeight;
     CGFloat imgLocX = 0.f;
     CGFloat imgLocY = 0.f;
-    CGFloat imgWidth = ELK_SCREEN_WIDTH;
-    CGFloat imgHeight = ELK_SCREEN_HEIGHT;
+    CGFloat imgWidth = ELKScreenWidth;
+    CGFloat imgHeight = ELKScreenHeight;
     if (imgZoomScale < scrScale) {
-        imgWidth = ELK_SCREEN_HEIGHT * imgZoomScale;
-        imgLocX = (ELK_SCREEN_WIDTH - imgWidth) / 2.f;
+        imgWidth = ELKScreenHeight * imgZoomScale;
+        imgLocX = (ELKScreenWidth - imgWidth) / 2.f;
     } else {
-        imgHeight = ELK_SCREEN_WIDTH / imgZoomScale;
-        imgLocY = (ELK_SCREEN_HEIGHT - imgHeight) / 2.f;
+        imgHeight = ELKScreenWidth / imgZoomScale;
+        imgLocY = (ELKScreenHeight - imgHeight) / 2.f;
     }
     
     [UIView animateWithDuration:duration animations:^{
         ELKGalleryShowView *galleryView = [self sharedGalleryShowView];
         galleryView.imageView.frame = CGRectMake(imgLocX, imgLocY, imgWidth, imgHeight);
-        [galleryView setBackgroundColor:ELKHexColor(0x000000, 1.f)];
+        [galleryView setBackgroundColor:ELK_HexColor(0x000000, 1.f)];
     }];
     
 }
@@ -206,7 +206,7 @@
 {
     [UIView animateWithDuration:0.2f animations:^{
         self.imageView.frame = CGRectMake(self.imgOriRect.origin.x, self.imgOriRect.origin.y, self.imgOriRect.size.width, self.imgOriRect.size.height);
-        [self setBackgroundColor:ELKHexColor(0x000000, 0.02f)];
+        [self setBackgroundColor:ELK_HexColor(0x000000, 0.02f)];
     } completion:^(BOOL finished) {
         [self.imageView setImage:[UIImage new]];
         [self removeFromSuperview];
@@ -247,11 +247,11 @@
     CGFloat imgHeight = imgSize.height;
     CGFloat imgLocX = 0.f;
     CGFloat imgLocY = 0.f;
-    if (imgWidth < ELK_SCREEN_WIDTH) {
-        imgLocX = (ELK_SCREEN_WIDTH - imgWidth) / 2.f;
+    if (imgWidth < ELKScreenWidth) {
+        imgLocX = (ELKScreenWidth - imgWidth) / 2.f;
     }
-    if (imgHeight < ELK_SCREEN_HEIGHT) {
-        imgLocY = (ELK_SCREEN_HEIGHT - imgHeight) / 2.f;
+    if (imgHeight < ELKScreenHeight) {
+        imgLocY = (ELKScreenHeight - imgHeight) / 2.f;
     }
     
     self.imageView.frame = CGRectMake(imgLocX, imgLocY, imgWidth, imgHeight);

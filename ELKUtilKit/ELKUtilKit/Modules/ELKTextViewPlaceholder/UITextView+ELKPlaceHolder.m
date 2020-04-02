@@ -35,7 +35,7 @@ static const char *elkMaximumTextLength   = "elkMaximumTextLength";
         textView = [[UITextView alloc] initWithFrame:self.bounds];
         textView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
         textView.backgroundColor = [UIColor clearColor];
-        textView.textColor = ELKHexColor(0x979797, 1.f);
+        textView.textColor = ELK_HexColor(0x979797, 1.f);
         textView.userInteractionEnabled = NO;
         [textView setEditable:NO];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(elk_textViewDidBeginEditing) name:UITextViewTextDidBeginEditingNotification object:nil];
@@ -84,7 +84,7 @@ static const char *elkMaximumTextLength   = "elkMaximumTextLength";
 {
     UIColor *phColor = objc_getAssociatedObject(self, elkPlaceHolderColor);
     if (!phColor) {
-        phColor = ELKHexColor(0x979797, 1.f);
+        phColor = ELK_HexColor(0x979797, 1.f);
         [self setPlaceHolderColor:phColor];
     }
     return phColor;
