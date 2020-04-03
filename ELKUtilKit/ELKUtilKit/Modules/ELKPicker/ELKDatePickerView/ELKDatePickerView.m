@@ -396,7 +396,7 @@
         NSInteger year = [yTime integerValue];
         NSMutableArray *mutArray = [[NSMutableArray alloc] init];
         for (int i = 0; i < 10; i++) {
-            [mutArray addObject:[NSString stringWithFormat:@"%ld", year]];
+            [mutArray addObject:[NSString stringWithFormat:@"%ld", (long)year]];
             year--;
         }
         _yearArray = mutArray;
