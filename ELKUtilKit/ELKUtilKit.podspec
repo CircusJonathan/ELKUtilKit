@@ -18,11 +18,12 @@ Pod::Spec.new do |spec|
 
     spec.subspec 'ELKUtils' do |utp|
        utp.source_files = 'ELKUtilKit/Utils/**/*.{h,m}'
+       utp.public_header_files = 'ELKUtilKit/Utils/**/*.h'
        
        utp.ios.frameworks = 'Foundation', 'UIKit'
     end
 
-    spec.public_header_files = 'ELKUtilKit/ELKUtilKit.h'
+    spec.public_header_files = 'ELKUtilKit/Modules/**/*.h', 'ELKUtilKit/ELKUtilKit.h'
     spec.source_files        = 'ELKUtilKit/Modules/**/*.{h,m}', 'ELKUtilKit/ELKUtilKit.h'
     spec.resources           = 'ELKUtilKit/Resources/*.bundle'
 
