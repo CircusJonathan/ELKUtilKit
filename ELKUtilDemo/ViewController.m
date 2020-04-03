@@ -81,20 +81,20 @@
     self.view.elk_addSubview(btn);
         
         
-    UITextView *textV = [[UITextView alloc] initWithFrame:CGRectMake(100.f, 200.f, 200.f, 90.f)];
-    textV.elk_setPlaceHolder(@"哈哈哈啊哈哈")
-    .elk_setMaxTextLength(15)
-    .elk_setText(@"hello world!")
-    .elk_setFont([UIFont systemFontOfSize:20]);
-    self.view.elk_addSubview(textV);
+//    UITextView *textV = [[UITextView alloc] initWithFrame:CGRectMake(100.f, 200.f, 200.f, 90.f)];
+//    textV.elk_setPlaceHolder(@"哈哈哈啊哈哈")
+//    .elk_setMaxTextLength(15)
+//    .elk_setText(@"hello world!")
+//    .elk_setFont([UIFont systemFontOfSize:20]);
+//    self.view.elk_addSubview(textV);
     
     
-    [ELKPapawView refreshPapawViewWithNum:3 block:^{
-        
-    }];
+//    [ELKPapawView refreshPapawViewWithNum:3 block:^{
+//
+//    }];
     
     
-    [self.view addSubview:[ELKNoDataView noDataWithImgName:nil remind:nil]];
+//    [self.view addSubview:[ELKNoDataView noDataWithImgName:nil remind:nil]];
         
         
         

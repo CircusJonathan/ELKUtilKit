@@ -12,7 +12,6 @@
 
 #import <SDWebImage/SDWebImage.h>
 #import "ELKUtilKit.h"
-#import "ELKUtilKitChained.h"
 #import <ELKChainedAlloy/ELKChainedAlloy.h>
 
 

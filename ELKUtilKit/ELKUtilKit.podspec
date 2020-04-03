@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
     spec.name         = "ELKUtilKit"
     
-    spec.version      = '1.2.3'
+    spec.version      = '1.2.4'
    
     spec.summary      = 'Util'
     spec.description  = <<-DESC
