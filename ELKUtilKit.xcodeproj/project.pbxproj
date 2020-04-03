@@ -21,7 +21,6 @@
 		AB70FC22242E54F7006F991B /* UIImage+ELKUtilResources.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FBFF242E54F7006F991B /* UIImage+ELKUtilResources.m */; };
 		AB70FC23242E54F7006F991B /* ELKUtilQuant.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC03242E54F7006F991B /* ELKUtilQuant.m */; };
 		AB70FC24242E54F7006F991B /* ELKUtilSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC06242E54F7006F991B /* ELKUtilSwizzling.m */; };
-		AB70FC25242E54F7006F991B /* ELKGalleryShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC0B242E54F7006F991B /* ELKGalleryShowView.m */; };
 		AB70FC26242E54F7006F991B /* ELKDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC0F242E54F7006F991B /* ELKDatePickerView.m */; };
 		AB70FC27242E54F7006F991B /* ELKStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC11242E54F7006F991B /* ELKStarView.m */; };
 		AB70FC28242E54F7006F991B /* ELKFiveStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC12242E54F7006F991B /* ELKFiveStarView.m */; };
@@ -83,8 +82,6 @@
 		AB70FC05242E54F7006F991B /* ELKUtilSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilSwizzling.h; sourceTree = "<group>"; };
 		AB70FC06242E54F7006F991B /* ELKUtilSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKUtilSwizzling.m; sourceTree = "<group>"; };
 		AB70FC07242E54F7006F991B /* ELKUtilDefinesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilDefinesHeader.h; sourceTree = "<group>"; };
-		AB70FC0A242E54F7006F991B /* ELKGalleryShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKGalleryShowView.h; sourceTree = "<group>"; };
-		AB70FC0B242E54F7006F991B /* ELKGalleryShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKGalleryShowView.m; sourceTree = "<group>"; };
 		AB70FC0E242E54F7006F991B /* ELKDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKDatePickerView.h; sourceTree = "<group>"; };
 		AB70FC0F242E54F7006F991B /* ELKDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKDatePickerView.m; sourceTree = "<group>"; };
 		AB70FC11242E54F7006F991B /* ELKStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKStarView.m; sourceTree = "<group>"; };
@@ -219,9 +216,7 @@
 		AB70FBF9242E54F7006F991B /* ELKUtilKit */ = {
 			isa = PBXGroup;
 			children = (
-				AB70FC07242E54F7006F991B /* ELKUtilDefinesHeader.h */,
 				AB70FBFA242E54F7006F991B /* ELKUtilKit.h */,
-				AB70FBFB242E54F7006F991B /* Category */,
 				AB70FC08242E54F7006F991B /* Modules */,
 				AB70FC00242E54F7006F991B /* Utils */,
 			);
@@ -243,6 +238,8 @@
 		AB70FC00242E54F7006F991B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				AB70FC07242E54F7006F991B /* ELKUtilDefinesHeader.h */,
+				AB70FBFB242E54F7006F991B /* Category */,
 				AB70FC01242E54F7006F991B /* Quant */,
 				AB70FC04242E54F7006F991B /* Swizzling */,
 			);
@@ -270,7 +267,6 @@
 		AB70FC08242E54F7006F991B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				AB70FC09242E54F7006F991B /* ELKGalleryView */,
 				AB70FC18242E54F7006F991B /* ELKNoDataView */,
 				AB70FC1E242E54F7006F991B /* ELKPapawView */,
 				AB70FC0C242E54F7006F991B /* ELKPicker */,
@@ -279,15 +275,6 @@
 				AB70FC15242E54F7006F991B /* ELKTextViewPlaceholder */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		AB70FC09242E54F7006F991B /* ELKGalleryView */ = {
-			isa = PBXGroup;
-			children = (
-				AB70FC0A242E54F7006F991B /* ELKGalleryShowView.h */,
-				AB70FC0B242E54F7006F991B /* ELKGalleryShowView.m */,
-			);
-			path = ELKGalleryView;
 			sourceTree = "<group>";
 		};
 		AB70FC0C242E54F7006F991B /* ELKPicker */ = {
@@ -583,7 +570,6 @@
 				AB70FB30242E52B8006F991B /* AppDelegate.m in Sources */,
 				AB70FC26242E54F7006F991B /* ELKDatePickerView.m in Sources */,
 				AB70FB41242E52B9006F991B /* main.m in Sources */,
-				AB70FC25242E54F7006F991B /* ELKGalleryShowView.m in Sources */,
 				AB70FC39242E5501006F991B /* ELKStarView+ELKUtilChained.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

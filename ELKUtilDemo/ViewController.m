@@ -118,18 +118,18 @@
 
 - (void)tapGesture1:(UIGestureRecognizer *)gesture
 {
-    [ELKGalleryShowView showGallery:@"https://www.52bnt.com/file/load?url=L2ZzL3dvcmsvdXBsb2FkLzIwMTktMDYtMTlfMDEvYWJjYjIxMWMtNWNlOC00MGU3LTgzZGYtZTU5ZDlmMjBhMmZhLnBuZw==" placeHolder:nil imgView:gesture.view];
+//    [ELKGalleryShowView showGallery:@"https://www.52bnt.com/file/load?url=L2ZzL3dvcmsvdXBsb2FkLzIwMTktMDYtMTlfMDEvYWJjYjIxMWMtNWNlOC00MGU3LTgzZGYtZTU5ZDlmMjBhMmZhLnBuZw==" placeHolder:nil imgView:gesture.view];
     
 }
 
 - (void)tapGesture2:(UIGestureRecognizer *)gesture
 {
-    [ELKGalleryShowView showGallery:@"elk_star_pic2" imgView:gesture.view];
+//    [ELKGalleryShowView showGallery:@"elk_star_pic2" imgView:gesture.view];
 }
 
 - (void)tapGesture3:(UIGestureRecognizer *)gesture
 {
-    [ELKGalleryShowView showGalleryImg:[UIImage imageNamed:@"elk_star_pic3"] imgView:gesture.view];
+//    [ELKGalleryShowView showGalleryImg:[UIImage imageNamed:@"elk_star_pic3"] imgView:gesture.view];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
