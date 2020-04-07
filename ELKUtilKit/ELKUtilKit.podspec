@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
     spec.name         = "ELKUtilKit"
     
-    spec.version      = '1.2.4'
+    spec.version      = '1.2.6'
    
     spec.summary      = 'Util'
     spec.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
        utp.source_files = 'ELKUtilKit/Utils/**/*.{h,m}'
        utp.public_header_files = 'ELKUtilKit/Utils/**/*.h'
        
-       utp.ios.frameworks = 'Foundation', 'UIKit'
+       utp.ios.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration'
     end
 
     spec.public_header_files = 'ELKUtilKit/Modules/**/*.h', 'ELKUtilKit/ELKUtilKit.h'
