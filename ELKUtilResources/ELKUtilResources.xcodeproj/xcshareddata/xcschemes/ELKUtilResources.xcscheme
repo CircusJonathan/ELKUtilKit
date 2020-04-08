@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1140"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AB70FB6C242E53B3006F991B"
+               BlueprintIdentifier = "AB2C4B89243E060900C7D898"
                BuildableName = "ELKUtilResources.bundle"
                BlueprintName = "ELKUtilResources"
                ReferencedContainer = "container:ELKUtilResources.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB70FB6C242E53B3006F991B"
+            BlueprintIdentifier = "AB2C4B89243E060900C7D898"
             BuildableName = "ELKUtilResources.bundle"
             BlueprintName = "ELKUtilResources"
             ReferencedContainer = "container:ELKUtilResources.xcodeproj">

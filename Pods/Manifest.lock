@@ -4,23 +4,17 @@ PODS:
     - ELKChainedAlloy/UIKit (= 1.1.4)
   - ELKChainedAlloy/Foundation (1.1.4)
   - ELKChainedAlloy/UIKit (1.1.4)
-  - SDWebImage (5.6.1):
-    - SDWebImage/Core (= 5.6.1)
-  - SDWebImage/Core (5.6.1)
 
 DEPENDENCIES:
   - ELKChainedAlloy
-  - SDWebImage
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - ELKChainedAlloy
-    - SDWebImage
 
 SPEC CHECKSUMS:
   ELKChainedAlloy: f4524fc982d7f95d3646a6f2ac5d9e6e476a413d
-  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
 
-PODFILE CHECKSUM: ec8f2fc291e8c9c96ced16afc3fa60a2d3c40018
+PODFILE CHECKSUM: c873be92ebee254e8d198652ec48120a99b7e54d
 
 COCOAPODS: 1.9.0.beta.2
