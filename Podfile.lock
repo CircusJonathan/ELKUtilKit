@@ -1,0 +1,20 @@
+PODS:
+  - ELKChainedAlloy (1.1.4):
+    - ELKChainedAlloy/Foundation (= 1.1.4)
+    - ELKChainedAlloy/UIKit (= 1.1.4)
+  - ELKChainedAlloy/Foundation (1.1.4)
+  - ELKChainedAlloy/UIKit (1.1.4)
+
+DEPENDENCIES:
+  - ELKChainedAlloy
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ELKChainedAlloy
+
+SPEC CHECKSUMS:
+  ELKChainedAlloy: f4524fc982d7f95d3646a6f2ac5d9e6e476a413d
+
+PODFILE CHECKSUM: 2f80cfd43ee3f069b12060c1f01a721e38b1f7c9
+
+COCOAPODS: 1.9.0.beta.2
