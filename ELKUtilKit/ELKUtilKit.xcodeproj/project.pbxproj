@@ -17,10 +17,8 @@
 		AB2C4B69243E05AA00C7D898 /* ELKUtilKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4B68243E05AA00C7D898 /* ELKUtilKitTests.m */; };
 		AB2C4B74243E05AA00C7D898 /* ELKUtilKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4B73243E05AA00C7D898 /* ELKUtilKitUITests.m */; };
 		AB2C4BA0243E083700C7D898 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4B9F243E083700C7D898 /* SecondViewController.m */; };
-		AB2C4BD2243E0B0200C7D898 /* ELKUtilQuant.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BC2243E0B0200C7D898 /* ELKUtilQuant.m */; };
 		AB2C4BD3243E0B0200C7D898 /* NSBundle+ELKUtilResources.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BC4243E0B0200C7D898 /* NSBundle+ELKUtilResources.m */; };
 		AB2C4BD4243E0B0200C7D898 /* UIImage+ELKUtilResources.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BC7243E0B0200C7D898 /* UIImage+ELKUtilResources.m */; };
-		AB2C4BD5243E0B0200C7D898 /* ELKUtilSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BCB243E0B0200C7D898 /* ELKUtilSwizzling.m */; };
 		AB2C4BD6243E0B0200C7D898 /* ELKStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BCE243E0B0200C7D898 /* ELKStarView.m */; };
 		AB2C4BD7243E0B0200C7D898 /* ELKFiveStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BCF243E0B0200C7D898 /* ELKFiveStarView.m */; };
 /* End PBXBuildFile section */
@@ -66,15 +64,11 @@
 		AB2C4B9F243E083700C7D898 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		AB2C4BA2243E08A200C7D898 /* ELKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKPrefixHeader.pch; sourceTree = "<group>"; };
 		AB2C4BBE243E0B0200C7D898 /* ELKUtilKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilKit.h; sourceTree = "<group>"; };
-		AB2C4BC1243E0B0200C7D898 /* ELKUtilQuant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilQuant.h; sourceTree = "<group>"; };
-		AB2C4BC2243E0B0200C7D898 /* ELKUtilQuant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKUtilQuant.m; sourceTree = "<group>"; };
 		AB2C4BC4243E0B0200C7D898 /* NSBundle+ELKUtilResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ELKUtilResources.m"; sourceTree = "<group>"; };
 		AB2C4BC5243E0B0200C7D898 /* UIImage+ELKUtilResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ELKUtilResources.h"; sourceTree = "<group>"; };
 		AB2C4BC6243E0B0200C7D898 /* NSBundle+ELKUtilResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ELKUtilResources.h"; sourceTree = "<group>"; };
 		AB2C4BC7243E0B0200C7D898 /* UIImage+ELKUtilResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ELKUtilResources.m"; sourceTree = "<group>"; };
 		AB2C4BC8243E0B0200C7D898 /* ELKUtilDefinesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilDefinesHeader.h; sourceTree = "<group>"; };
-		AB2C4BCA243E0B0200C7D898 /* ELKUtilSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKUtilSwizzling.h; sourceTree = "<group>"; };
-		AB2C4BCB243E0B0200C7D898 /* ELKUtilSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKUtilSwizzling.m; sourceTree = "<group>"; };
 		AB2C4BCE243E0B0200C7D898 /* ELKStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKStarView.m; sourceTree = "<group>"; };
 		AB2C4BCF243E0B0200C7D898 /* ELKFiveStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKFiveStarView.m; sourceTree = "<group>"; };
 		AB2C4BD0243E0B0200C7D898 /* ELKFiveStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKFiveStarView.h; sourceTree = "<group>"; };
@@ -209,19 +203,8 @@
 			children = (
 				AB2C4BC8243E0B0200C7D898 /* ELKUtilDefinesHeader.h */,
 				AB2C4BC3243E0B0200C7D898 /* Category */,
-				AB2C4BC0243E0B0200C7D898 /* Quant */,
-				AB2C4BC9243E0B0200C7D898 /* Swizzling */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		AB2C4BC0243E0B0200C7D898 /* Quant */ = {
-			isa = PBXGroup;
-			children = (
-				AB2C4BC1243E0B0200C7D898 /* ELKUtilQuant.h */,
-				AB2C4BC2243E0B0200C7D898 /* ELKUtilQuant.m */,
-			);
-			path = Quant;
 			sourceTree = "<group>";
 		};
 		AB2C4BC3243E0B0200C7D898 /* Category */ = {
@@ -233,15 +216,6 @@
 				AB2C4BC7243E0B0200C7D898 /* UIImage+ELKUtilResources.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		AB2C4BC9243E0B0200C7D898 /* Swizzling */ = {
-			isa = PBXGroup;
-			children = (
-				AB2C4BCA243E0B0200C7D898 /* ELKUtilSwizzling.h */,
-				AB2C4BCB243E0B0200C7D898 /* ELKUtilSwizzling.m */,
-			);
-			path = Swizzling;
 			sourceTree = "<group>";
 		};
 		AB2C4BCC243E0B0200C7D898 /* Modules */ = {
@@ -419,7 +393,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2C4BD5243E0B0200C7D898 /* ELKUtilSwizzling.m in Sources */,
 				AB2C4BA0243E083700C7D898 /* SecondViewController.m in Sources */,
 				AB2C4B54243E05A800C7D898 /* ViewController.m in Sources */,
 				AB2C4BD6243E0B0200C7D898 /* ELKStarView.m in Sources */,
@@ -428,7 +401,6 @@
 				AB2C4BD3243E0B0200C7D898 /* NSBundle+ELKUtilResources.m in Sources */,
 				AB2C4BD4243E0B0200C7D898 /* UIImage+ELKUtilResources.m in Sources */,
 				AB2C4B5F243E05A900C7D898 /* main.m in Sources */,
-				AB2C4BD2243E0B0200C7D898 /* ELKUtilQuant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

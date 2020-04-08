@@ -7,7 +7,6 @@
 //
 
 #import "NSBundle+ELKUtilResources.h"
-#import "ELKUtilSwizzling.h"
 
 @implementation NSBundle (ELKUtilResources)
 
@@ -17,7 +16,7 @@
     static NSBundle *utilBundle = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSBundle *mainBundle = [NSBundle bundleForClass:[ELKUtilSwizzling class]];
+        NSBundle *mainBundle = [NSBundle bundleForClass:[NSBundle class]];
         utilBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"ELKUtilResources" ofType:@"bundle"]];
         if (!utilBundle) {
             utilBundle = mainBundle;
