@@ -1,10 +1,10 @@
+# Uncomment the next line to define a global platform for your project
 source 'https://github.com/CocoaPods/Specs.git'
-workspace 'ELKUtilKit-master.xcworkspace'
 platform :ios, '9.0'
 
-target 'ELKUtilKit' do
-  
-  project 'ELKUtilKit/ELKUtilKit.xcodeproj'  
+target 'ELKUtilKit-master' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
 
   pod 'SDWebImage'
   pod 'ELKChainedAlloy'
