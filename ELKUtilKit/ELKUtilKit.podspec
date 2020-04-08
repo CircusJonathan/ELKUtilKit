@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
     spec.name         = "ELKUtilKit"
     
-    spec.version      = '1.2.8'
+    spec.version      = '1.2.9'
    
     spec.summary      = 'Util'
     spec.description  = <<-DESC
@@ -15,6 +15,12 @@ Pod::Spec.new do |spec|
     spec.platform     = :ios
     spec.source       = { :git => "https://github.com/elkshrek/ELKUtilKit.git", :tag => "#{spec.version}" }
     spec.requires_arc = true
+    
+    spec.public_header_files = 'ELKUtilKit/ELKUtilKit.h'
+    spec.source_files        = 'ELKUtilKit/ELKUtilKit.{h,m}'
+
+    spec.ios.frameworks      = 'Foundation', 'UIKit', 'SystemConfiguration'
+    spec.libraries   = 'c++', 'z'
     
     
     spec.subspec 'ELKUtils' do |ets|
@@ -39,12 +45,6 @@ Pod::Spec.new do |spec|
         ems.ios.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration'
         ems.libraries   = 'c++', 'z'
     end
-    
-    spec.public_header_files = 'ELKUtilKit/ELKUtilKit.h'
-    spec.source_files        = 'ELKUtilKit/ELKUtilKit.{h,m}'
-
-    spec.ios.frameworks      = 'Foundation', 'UIKit', 'SystemConfiguration'
-    spec.libraries   = 'c++', 'z'
 
 
 end
