@@ -23,7 +23,6 @@
 		AB70FC24242E54F7006F991B /* ELKUtilSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC06242E54F7006F991B /* ELKUtilSwizzling.m */; };
 		AB70FC27242E54F7006F991B /* ELKStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC11242E54F7006F991B /* ELKStarView.m */; };
 		AB70FC28242E54F7006F991B /* ELKFiveStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC12242E54F7006F991B /* ELKFiveStarView.m */; };
-		AB70FC29242E54F7006F991B /* UITextView+ELKPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB70FC17242E54F7006F991B /* UITextView+ELKPlaceHolder.m */; };
 		AB70FC42242E6CE2006F991B /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB70FC41242E6CE2006F991B /* ELKUtilResources.bundle */; };
 /* End PBXBuildFile section */
 
@@ -79,8 +78,6 @@
 		AB70FC12242E54F7006F991B /* ELKFiveStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKFiveStarView.m; sourceTree = "<group>"; };
 		AB70FC13242E54F7006F991B /* ELKFiveStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKFiveStarView.h; sourceTree = "<group>"; };
 		AB70FC14242E54F7006F991B /* ELKStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKStarView.h; sourceTree = "<group>"; };
-		AB70FC16242E54F7006F991B /* UITextView+ELKPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ELKPlaceHolder.h"; sourceTree = "<group>"; };
-		AB70FC17242E54F7006F991B /* UITextView+ELKPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ELKPlaceHolder.m"; sourceTree = "<group>"; };
 		AB70FC3E242E5642006F991B /* ELKPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELKPrefixHeader.pch; sourceTree = "<group>"; };
 		AB70FC41242E6CE2006F991B /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ELKUtilResources.bundle; path = ELKProducts/Release/ELKUtilResources.bundle; sourceTree = SOURCE_ROOT; };
 		BC8613332983C5030E0C3212 /* Pods-ELKUtilKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELKUtilKit.debug.xcconfig"; path = "Target Support Files/Pods-ELKUtilKit/Pods-ELKUtilKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -245,7 +242,6 @@
 			isa = PBXGroup;
 			children = (
 				AB70FC10242E54F7006F991B /* ELKStarView */,
-				AB70FC15242E54F7006F991B /* ELKTextViewPlaceholder */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -259,15 +255,6 @@
 				AB70FC11242E54F7006F991B /* ELKStarView.m */,
 			);
 			path = ELKStarView;
-			sourceTree = "<group>";
-		};
-		AB70FC15242E54F7006F991B /* ELKTextViewPlaceholder */ = {
-			isa = PBXGroup;
-			children = (
-				AB70FC16242E54F7006F991B /* UITextView+ELKPlaceHolder.h */,
-				AB70FC17242E54F7006F991B /* UITextView+ELKPlaceHolder.m */,
-			);
-			path = ELKTextViewPlaceholder;
 			sourceTree = "<group>";
 		};
 		C3D2B8055A5F5FF33BF2A987 /* Frameworks */ = {
@@ -435,7 +422,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB70FC29242E54F7006F991B /* UITextView+ELKPlaceHolder.m in Sources */,
 				AB70FC24242E54F7006F991B /* ELKUtilSwizzling.m in Sources */,
 				AB70FC22242E54F7006F991B /* UIImage+ELKUtilResources.m in Sources */,
 				AB70FC27242E54F7006F991B /* ELKStarView.m in Sources */,

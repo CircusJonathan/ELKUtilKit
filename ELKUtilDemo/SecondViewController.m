@@ -22,12 +22,12 @@
     UITextView *textView = [UITextView elk_makeBlock:^(UITextView * _Nonnull make) {
         make.elk_setFrameMake(40.f, 64.f, 200.f, 100.f)
         .elk_setBackgroundColor(UIColor.greenColor);
-        make.placeHolder = @"输入一段文字吧";
-        [make setMaxTextLength:20];
+//        make.placeHolder = @"输入一段文字吧";
+//        [make setMaxTextLength:20];
     }];
-    textView.textViewDidChangeBlock = ^(NSString * _Nullable text) {
-        NSLog(@"%ld/20", (long)text.length);
-    };
+//    textView.textViewDidChangeBlock = ^(NSString * _Nullable text) {
+//        NSLog(@"%ld/20", (long)text.length);
+//    };
     
     textView.font = [UIFont systemFontOfSize:20];
     self.view.elk_addSubview(textView);
