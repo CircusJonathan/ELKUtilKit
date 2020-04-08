@@ -21,6 +21,7 @@
 		AB2C4BD4243E0B0200C7D898 /* UIImage+ELKUtilResources.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BC7243E0B0200C7D898 /* UIImage+ELKUtilResources.m */; };
 		AB2C4BD6243E0B0200C7D898 /* ELKStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BCE243E0B0200C7D898 /* ELKStarView.m */; };
 		AB2C4BD7243E0B0200C7D898 /* ELKFiveStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C4BCF243E0B0200C7D898 /* ELKFiveStarView.m */; };
+		AB2C4BDA243E0FDA00C7D898 /* ELKUtilResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB2C4BD9243E0FDA00C7D898 /* ELKUtilResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		AB2C4BCF243E0B0200C7D898 /* ELKFiveStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELKFiveStarView.m; sourceTree = "<group>"; };
 		AB2C4BD0243E0B0200C7D898 /* ELKFiveStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKFiveStarView.h; sourceTree = "<group>"; };
 		AB2C4BD1243E0B0200C7D898 /* ELKStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELKStarView.h; sourceTree = "<group>"; };
+		AB2C4BD9243E0FDA00C7D898 /* ELKUtilResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ELKUtilResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				AB2C4BBE243E0B0200C7D898 /* ELKUtilKit.h */,
+				AB2C4BD8243E0FCD00C7D898 /* Resources */,
 				AB2C4BCC243E0B0200C7D898 /* Modules */,
 				AB2C4BBF243E0B0200C7D898 /* Utils */,
 			);
@@ -235,6 +238,14 @@
 				AB2C4BD1243E0B0200C7D898 /* ELKStarView.h */,
 			);
 			path = ELKStarView;
+			sourceTree = "<group>";
+		};
+		AB2C4BD8243E0FCD00C7D898 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB2C4BD9243E0FDA00C7D898 /* ELKUtilResources.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2C4BDA243E0FDA00C7D898 /* ELKUtilResources.bundle in Resources */,
 				AB2C4B5C243E05A900C7D898 /* LaunchScreen.storyboard in Resources */,
 				AB2C4B59243E05A900C7D898 /* Assets.xcassets in Resources */,
 				AB2C4B57243E05A800C7D898 /* Main.storyboard in Resources */,
